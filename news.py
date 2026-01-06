@@ -31,6 +31,22 @@ GENERIC_WORDS = {
     "man", "woman", "people", "police"
 }
 
+SOURCE_BIAS = {
+    # UK
+    "bbc": 0.0,
+    "guardian": -0.5,
+    "independent": -0.5,
+    "telegraph": 0.5,
+    "times": 0.5,
+    "dailymail": 1.0,
+    "metro": 0.0,
+    "standard": 0.0,
+    "sky": 0.0,
+
+    # International (safe defaults)
+    "reuters": 0.0,
+    "ap": 0.0,
+}
 # ========================
 # Orchestration
 # ========================
@@ -83,7 +99,7 @@ def fetch_articles() -> List[Article]:
                     url=getattr(entry, "link", ""),
                     published_at=published_at,
                     entities=[],
-                    bias_score=0.0,
+                    bias_score=SOURCE_BIAS.get(source_id, 0.0),
                 )
             )
 
@@ -179,8 +195,3 @@ def evaluate(stories: List[Story]):
 
     for s in stories[:5]:
         print(f"- {s.story_id}: {s.topic} ({len(s.articles)})")
-
-# ========================
-
-if __name__ == "__main__":
-    get_stories(force_refresh=True)
