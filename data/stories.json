@@ -1,0 +1,824 @@
+[
+  {
+    "story_id": "story-001",
+    "topic": "sticks, chris, avoiding, trump",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/cr4kr7r9ew2o#0",
+        "source": "bbc",
+        "headline": "Chris Mason: Starmer sticks to strategy of avoiding criticism of Trump over Maduro",
+        "summary": "The government's cautious response has been pounced on by its critics, writes the BBC's political editor.",
+        "url": "https://www.bbc.com/news/articles/cr4kr7r9ew2o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 06:10:43",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "independent-b2895166",
+        "source": "independent",
+        "headline": "Starmer’s priority is to protect UK relationship with Trump, Streeting suggests",
+        "summary": "<p>Wes Streeting also issued a direct warning to the US president, saying now is ‘not the time to destabilise Nato’ after Trump threatened to annex Greenland</p>",
+        "url": "https://www.independent.co.uk/news/uk/politics/trump-starmer-streeting-venezuela-greenland-b2895166.html",
+        "published_at": "2026-01-06 10:23:18",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-002",
+    "topic": "discounts, group, industry, electric",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/c0417v3v21ko#0",
+        "source": "bbc",
+        "headline": "Electric car discounts are unsustainable, says industry group",
+        "summary": "The SMMT warned of a growing gap between consumer demand and the government's ambitions for EVs.",
+        "url": "https://www.bbc.com/news/articles/c0417v3v21ko?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 09:48:31",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-003",
+    "topic": "waited, diagnosis, nelson, twins",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/c050p6e6093o#0",
+        "source": "bbc",
+        "headline": "Our children waited too long for the same diagnosis as Jesy Nelson's twins",
+        "summary": "After Little Mix star Jesy Nelson's revelation that her twins have SMA, parents speak about their children's late diagnoses.",
+        "url": "https://www.bbc.com/news/articles/c050p6e6093o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 06:12:23",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-004",
+    "topic": "reaches, sight, strike",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/c1509kklkzvo#0",
+        "source": "bbc",
+        "headline": "Bin strike reaches one year mark with no end in sight",
+        "summary": "Unite says there will be no end to the strikes until there is a fair deal for the bin workers.\"",
+        "url": "https://www.bbc.com/news/articles/c1509kklkzvo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 06:03:08",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-005",
+    "topic": "chelsea, rosenior, means, world",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/sport/football/articles/cp37zvxgg9ko#0",
+        "source": "bbc",
+        "headline": "'It means the world to me' - Chelsea appoint Rosenior",
+        "summary": "Chelsea appoint Strasbourg manager Liam Rosenior as new head coach to replace Enzo Maresca.",
+        "url": "https://www.bbc.com/sport/football/articles/cp37zvxgg9ko?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 09:46:30",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "guardian-https://www.theguardian.com/football/2026/jan/06/chelsea-liam-rosenior-head-coach-strasbourg",
+        "source": "guardian",
+        "headline": "Liam Rosenior confirmed as Chelsea head coach on contract to 2032",
+        "summary": "<ul><li><p>He arrives from Strasbourg to replace Enzo Maresca</p></li><li><p>‘I cannot turn down Chelsea,’ says former Hull coach</p></li></ul><p>Liam Rosenior has been confirmed as Chelsea’s head coach on a contract to 2032, describing the opportunity to replace Enzo Maresca at Stamford Bridge as one he could not turn down.</p><p>Rosenior has left Strasbourg for Chelsea, their partner club, after <a href=\"https://www.theguardian.com/football/2026/jan/04/liam-rosenior-arrives-in-london-to-discuss-taking-over-as-chelsea-manager\">holding talks over the role</a> on Monday. He said at a Strasbourg press conference on Tuesday: “I have had interest from many clubs, including Champions League clubs, which I have always been open with to [our president] Marc [Keller] and our ownership. I will love this club for the rest of my life but I cannot turn down Chelsea.”</p> <a href=\"https://www.theguardian.com/football/2026/jan/06/chelsea-liam-rosenior-head-coach-strasbourg\">Continue reading...</a>",
+        "url": "https://www.theguardian.com/football/2026/jan/06/chelsea-liam-rosenior-head-coach-strasbourg",
+        "published_at": "2026-01-06 10:30:44",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "mirror-https://www.mirror.co.uk/sport/football/news/breaking-chelsea-announce-liam-rosenior-36500122",
+        "source": "mirror",
+        "headline": "Chelsea announce Liam Rosenior as new boss on huge contract after Enzo Maresca drama",
+        "summary": "Chelsea have announced that they've appointed Liam Rosenior as their new head coach, with the Blues handing him a six-and-a-half-year contract less than a week after Enzo Maresca departed",
+        "url": "https://www.mirror.co.uk/sport/football/news/breaking-chelsea-announce-liam-rosenior-36500122",
+        "published_at": "2026-01-06 10:18:23",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-006",
+    "topic": "every, three, drivers, years",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/c205nxy0p31o#0",
+        "source": "bbc",
+        "headline": "Drivers over 70 to face eye tests every three years",
+        "summary": "The move is part of the government's new road safety strategy, which plans to reform driving laws in Britain.",
+        "url": "https://www.bbc.com/news/articles/c205nxy0p31o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 09:02:16",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "independent-b2895136",
+        "source": "independent",
+        "headline": "Eye tests for older drivers and tighter alcohol limits could be introduced under road safety plans",
+        "summary": "<p>The government’s road safety strategy aims to reduce deaths and serious injuries on Britain’s roads by 65 per cent by 2035</p>",
+        "url": "https://www.independent.co.uk/news/uk/politics/road-safety-alcohol-limit-eye-tests-b2895136.html",
+        "published_at": "2026-01-06 07:57:21",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "metro-https://metro.co.uk/?p=25378533",
+        "source": "metro",
+        "headline": "The London junction that has cost drivers more than £2,500,000 in fines",
+        "summary": "When Victorian London clashes with modern car culture.",
+        "url": "https://metro.co.uk/2026/01/06/london-junction-cost-drivers-2-500-000-fines-25378533/",
+        "published_at": "2026-01-06 07:00:00",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "mirror-https://www.mirror.co.uk/lifestyle/motoring/aa-tells-drivers-stop-de-36503697",
+        "source": "mirror",
+        "headline": "AA tells drivers to stop de-icing cars and use 1 household item to prevent frost",
+        "summary": "The AA has shared an easy method to prevent frost and ice from developing on your windscreen overnight. It's told drivers to stop de-icing their cars, and turn to a household item for help",
+        "url": "https://www.mirror.co.uk/lifestyle/motoring/aa-tells-drivers-stop-de-36503697",
+        "published_at": "2026-01-06 09:57:24",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-007",
+    "topic": "cover-ups, included, manchester, families",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/crkr0r6lrdjo#0",
+        "source": "bbc",
+        "headline": "Manchester Arena families say MI5 must be fully included in new law on cover-ups",
+        "summary": "The law follows campaigning by families affected by the 1989 Hillsborough disaster that claimed 97 lives.",
+        "url": "https://www.bbc.com/news/articles/crkr0r6lrdjo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 09:08:48",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "guardian-https://www.theguardian.com/uk-news/2026/jan/06/families-affected-manchester-arena-attack-mi5-must-be-more-open-to-scrutiny",
+        "source": "guardian",
+        "headline": "Families affected by Manchester Arena attack say MI5 must be more open to scrutiny",
+        "summary": "<p>In a letter to Keir Starmer, they say MI5 failed them and the Security Service must be included in a law to stop cover-ups</p><p>Families affected by the Manchester Arena bombing have said MI5 failed them and must be more open to scrutiny.</p><p>In a <a href=\"https://www.bbc.co.uk/news/articles/crkr0r6lrdjo\">letter sent to the prime minister seen by the BBC</a>, the families demanded the Security Service be fully included in a new law designed to stop cover-ups in public life.</p> <a href=\"https://www.theguardian.com/uk-news/2026/jan/06/families-affected-manchester-arena-attack-mi5-must-be-more-open-to-scrutiny\">Continue reading...</a>",
+        "url": "https://www.theguardian.com/uk-news/2026/jan/06/families-affected-manchester-arena-attack-mi5-must-be-more-open-to-scrutiny",
+        "published_at": "2026-01-06 07:54:30",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "independent-b2895143",
+        "source": "independent",
+        "headline": "Manchester Arena families say MI5 can’t be trusted",
+        "summary": "<p>‘How many times must MI5 show that it cannot be trusted before something is done?’</p>",
+        "url": "https://www.independent.co.uk/news/uk/home-news/manchester-arena-attack-mi5-starmer-b2895143.html",
+        "published_at": "2026-01-06 08:03:23",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-008",
+    "topic": "formula, products, recalled, poisoning",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/cx2yvx8gnnpo#0",
+        "source": "bbc",
+        "headline": "Baby formula products recalled by Nestle over food poisoning fears",
+        "summary": "The food giant discovered some batches of SMA infant and follow-on formula could lead to vomiting",
+        "url": "https://www.bbc.com/news/articles/cx2yvx8gnnpo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 08:43:47",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "independent-b2895017",
+        "source": "independent",
+        "headline": "Urgent warning as food giant recalls baby formula products over food poisoning toxin",
+        "summary": "<p>Symptoms caused by this toxin include nausea, vomiting and abdominal cramps</p>",
+        "url": "https://www.independent.co.uk/news/uk/home-news/nestle-baby-formula-recall-sma-b2895104.html",
+        "published_at": "2026-01-06 07:57:00",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "metro-https://metro.co.uk/?p=26104794",
+        "source": "metro",
+        "headline": "Nestlé recalls batches of SMA baby formula over fears they contain toxin",
+        "summary": "",
+        "url": "https://metro.co.uk/2026/01/06/nestle-recalls-batches-sma-baby-formula-fears-contain-toxin-26104794/",
+        "published_at": "2026-01-06 10:05:09",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-009",
+    "topic": "menopause, prostates, online, hospital",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/c62w3wr92npo#0",
+        "source": "bbc",
+        "headline": "New NHS online hospital to focus on menopause and prostates",
+        "summary": "NHS Online due to launch in England next year will provide eye, prostate and menopause care.",
+        "url": "https://www.bbc.com/news/articles/c62w3wr92npo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 08:23:32",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "mirror-https://www.mirror.co.uk/news/health/nhs-caution-certain-people-prescribed-36499723",
+        "source": "mirror",
+        "headline": "NHS caution to certain people prescribed tibolone to reduce menopause symptoms",
+        "summary": "People with certain diagnoses or symptoms should speak to a doctor before taking tibolone",
+        "url": "https://www.mirror.co.uk/news/health/nhs-caution-certain-people-prescribed-36499723",
+        "published_at": "2026-01-06 05:00:00",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-010",
+    "topic": "greenland, trump",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/c74x4m71pmjo#1",
+        "source": "bbc",
+        "headline": "Why does Trump want Greenland?",
+        "summary": "The US president has made repeat takeover threats - drawing condemnation from the island's leaders and Denmark.",
+        "url": "https://www.bbc.com/news/articles/c74x4m71pmjo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-05 16:39:28",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "independent-b2894638",
+        "source": "independent",
+        "headline": "Starmer defies Trump over Greenland after US president threatens Nato ally",
+        "summary": "<p>It comes as former Supreme Court judge Jonathan Sumption said Trump’s capture of the Venezuelan president was ‘illegal’ and former attorney general Dominic Grieve described the US president as ‘a serious and significant danger to world peace’</p>",
+        "url": "https://www.independent.co.uk/news/uk/politics/trump-denmark-greenland-starmer-venezuela-b2894638.html",
+        "published_at": "2026-01-05 20:16:10",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-011",
+    "topic": "right, morally, badenoch, action",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/ckgnxdpv2p9o#1",
+        "source": "bbc",
+        "headline": "US action in Venezuela morally right, Badenoch says",
+        "summary": "The Conservative leader tells the BBC the military operation raises \"serious questions about the rules-based order\".",
+        "url": "https://www.bbc.com/news/articles/ckgnxdpv2p9o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 10:01:00",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "independent-b2894909",
+        "source": "independent",
+        "headline": "Cooper refuses to condemn US action in Venezuela as criticism among Labour MPs grows",
+        "summary": "<p>Government facing mounting criticism from its own MPs urging Sir Keir Starmer to criticise the US intervention</p>",
+        "url": "https://www.independent.co.uk/news/uk/politics/yvette-cooper-uk-us-venezuela-b2894909.html",
+        "published_at": "2026-01-05 19:44:15",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-012",
+    "topic": "defiant, braces, post-maduro",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/cz9vg0w9w28o#1",
+        "source": "bbc",
+        "headline": "Cuba defiant as it braces for post-Maduro era",
+        "summary": "The prospects for Cuba - a close ally of Nicolás Maduro's Venezuela - are now bleak, writes the BBC's Will Grant.",
+        "url": "https://www.bbc.com/news/articles/cz9vg0w9w28o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-05 21:41:36",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-013",
+    "topic": "hearing, prisoner, maduro, dramatic",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/cq6v25eldmdo#1",
+        "source": "bbc",
+        "headline": "'I'm a prisoner of war' - In the room for Maduro's dramatic court hearing",
+        "summary": "During the 40-minute arraignment, Maduro and his wife, Cilia Flores, pleaded not guilty to drugs and weapon charges.",
+        "url": "https://www.bbc.com/news/articles/cq6v25eldmdo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-05 19:35:52",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-014",
+    "topic": "friends, criticised, sharply",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/cwy1812n13eo#1",
+        "source": "bbc",
+        "headline": "US sharply criticised by foes and friends",
+        "summary": "The US taking of Venezuela's leader has faced strong criticism from both America's friends and foes.",
+        "url": "https://www.bbc.com/news/articles/cwy1812n13eo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-05 19:37:39",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-015",
+    "topic": "videos, celebrations, claim, inside",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/videos/cn7jrk2jvxno#1",
+        "source": "bbc",
+        "headline": "Misleading videos claim to show celebrations inside Venezuela",
+        "summary": "BBC Verify takes a closer look at videos circulating online claiming to show Venezuelans celebrating the US seizure of Venezuelan president Nicolas Maduro.",
+        "url": "https://www.bbc.com/news/videos/cn7jrk2jvxno?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-05 18:25:29",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-016",
+    "topic": "runescape, playing, gamers, classic",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/c4g6g1z3160o#2",
+        "source": "bbc",
+        "headline": "Why are more gamers than ever playing the 2000s classic RuneScape?",
+        "summary": "Millions of people have returned to the iconic online game to farm, go on quests and fight big bosses.",
+        "url": "https://www.bbc.com/news/articles/c4g6g1z3160o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 00:06:01",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-017",
+    "topic": "three, sydney, england, disappointing",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/sport/cricket/articles/crmlng88w4lo#2",
+        "source": "bbc",
+        "headline": "Day three of Ashes Test in Sydney felt like end of an era for disappointing England",
+        "summary": "England's meek performance on day three of the fifth Ashes Test felt like the end of an era, says Stephan Shemilt.",
+        "url": "https://www.bbc.com/sport/cricket/articles/crmlng88w4lo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 09:00:00",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "guardian-https://www.theguardian.com/sport/2026/jan/06/conscript-matt-potts-england-paratrooper-fighting-lonely-ashes-war-sydney-cricket",
+        "source": "guardian",
+        "headline": "Conscript Potts is England’s paratrooper fighting a lonely Ashes war in Sydney | Barney Ronay",
+        "summary": "<p>While England’s batting always gets to hog the limelight, this tour has also been lost in in the bowling fade-outs</p><p>Forty-five minutes into a quietly overcast morning at the Sydney Cricket Ground, Matt Potts came into the England attack from the Randwick End, and immediately began running through his variations.</p><p>His first ball was wide and smashed through cover by Travis Head. His second ball was both short and wide and hacked over gully by Travis Head. His third ball was short and straight and smashed past midwicket by Travis Head. His fourth ball was defended with a show of furrowed caution, to loud, mocking cheers from a crowd that had begun to tuck into the day. Welcome to the treadmill, Pottsy. And yes, it’s always like this around here.</p> <a href=\"https://www.theguardian.com/sport/2026/jan/06/conscript-matt-potts-england-paratrooper-fighting-lonely-ashes-war-sydney-cricket\">Continue reading...</a>",
+        "url": "https://www.theguardian.com/sport/2026/jan/06/conscript-matt-potts-england-paratrooper-fighting-lonely-ashes-war-sydney-cricket",
+        "published_at": "2026-01-06 09:39:33",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-018",
+    "topic": "become, flight, geese, great",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/c3wz6p64gzyo#2",
+        "source": "bbc",
+        "headline": "How Geese took flight to become 'Gen Z's first great American band'",
+        "summary": "The New Yorkers, who are fourth in the BBC's Sound of 2026, say they're 'still processing' their rise.",
+        "url": "https://www.bbc.com/news/articles/c3wz6p64gzyo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 06:59:13",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-019",
+    "topic": "prisoner, amorim, maduro, papers",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/c9wxlq0pplko#2",
+        "source": "bbc",
+        "headline": "The Papers: 'I'm a prisoner of war' says Maduro and 'that's Amorim'",
+        "summary": "The court appearance of ousted Venezuelan leader Nicolás Maduro leads most of Tuesday's papers, and the sacking of the Man United boss also features.",
+        "url": "https://www.bbc.com/news/articles/c9wxlq0pplko?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 00:59:34",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-020",
+    "topic": "changing, magical, flower, farmers",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/clyxln49760o#2",
+        "source": "bbc",
+        "headline": "The 'magical' blue flower changing farmers' fortunes in India",
+        "summary": "Indian farmers are turning to butterfly pea flower which is in demand for its bright blue colour.",
+        "url": "https://www.bbc.com/news/articles/clyxln49760o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 00:01:52",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "mirror-https://www.mirror.co.uk/news/health/nhs-issues-alert-over-changing-36503307",
+        "source": "mirror",
+        "headline": "NHS issues alert over changing 'colour' of fingers and toes in the cold symptom",
+        "summary": "Fingers and toes becoming paler, more painful, numb, or tingly are among other symptoms of this phenomenon",
+        "url": "https://www.mirror.co.uk/news/health/nhs-issues-alert-over-changing-36503307",
+        "published_at": "2026-01-06 10:03:11",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-021",
+    "topic": "ahead, slowdown, reports, christmas",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/cre27x179zpo#4",
+        "source": "bbc",
+        "headline": "Next reports Christmas rush but warns of slowdown ahead",
+        "summary": "Sales at the retailer beat expectations, but rising unemployment is expected to weigh on demand.",
+        "url": "https://www.bbc.com/news/articles/cre27x179zpo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 08:55:40",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-022",
+    "topic": "nvidia, self-driving, hardware, unveils",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/c0jv1vd571wo#4",
+        "source": "bbc",
+        "headline": "Nvidia unveils self-driving car tech as part of AI for hardware push",
+        "summary": "The chip giant is looking for ways to move the AI revolution beyond software and into physical products.",
+        "url": "https://www.bbc.com/news/articles/c0jv1vd571wo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 10:30:23",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "guardian-https://www.theguardian.com/technology/2026/jan/05/nvidia-chips-jensen-huang",
+        "source": "guardian",
+        "headline": "Nvidia CEO reveals new ‘reasoning’ AI tech for self-driving cars",
+        "summary": "<p>Jensen Huang also announces at CES new, more powerful Vera Rubin<strong> </strong>chips that will arrive later this year</p><p>The billionaire boss of the chipmaker Nvidia, Jensen Huang, has unveiled new AI technology that he says will help self-driving cars think like humans to navigate more complex situations.</p><p>The world’s most valuable company is to roll out the new technology, Alpamayo, which is designed to help self-driving cars handle tricky situations such as sudden roadworks or unusual driver behaviour on the road, rather than just reacting to previous patterns.</p> <a href=\"https://www.theguardian.com/technology/2026/jan/05/nvidia-chips-jensen-huang\">Continue reading...</a>",
+        "url": "https://www.theguardian.com/technology/2026/jan/05/nvidia-chips-jensen-huang",
+        "published_at": "2026-01-06 10:00:49",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-023",
+    "topic": "midlands, questioned, maccabi",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/cn0y8kl8kxeo#4",
+        "source": "bbc",
+        "headline": "West Midlands police to be questioned over ban on Maccabi Tel Aviv fans",
+        "summary": "BBC News has seen a letter from the Dutch police inspectorate, which appears to contradict claims made by West Midlands Police about Maccabi fans' previous behaviour.",
+        "url": "https://www.bbc.com/news/articles/cn0y8kl8kxeo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 01:45:17",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-024",
+    "topic": "tomorrowland, festival, thailand, first-ever",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/cql45lykx5eo#4",
+        "source": "bbc",
+        "headline": "Tomorrowland to hold its first-ever Asia festival in Thailand",
+        "summary": "Founded 20 years ago, Tomorrowland has grown into one of the most iconic celebrations of electronic music.",
+        "url": "https://www.bbc.com/news/articles/cql45lykx5eo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 10:31:17",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-025",
+    "topic": "detoxed, failing, treatment, access",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/cewjz55lvqlo#4",
+        "source": "bbc",
+        "headline": "Woman detoxed alone in B&B after failing to access local treatment",
+        "summary": "Katrina McGibbon developed alcohol and drug problems in her 30s, but felt her recovery was impeded by the lack of a local, health-service run rehabilitation unit.",
+        "url": "https://www.bbc.com/news/articles/cewjz55lvqlo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 00:01:05",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-026",
+    "topic": "claire, original, administration, enter",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/c78v6v0j8v4o#4",
+        "source": "bbc",
+        "headline": "Claire's and The Original Factory Shop to enter administration",
+        "summary": "The firms' owner said \"alarming\" low Christmas trading left both in a \"vulnerable\" position",
+        "url": "https://www.bbc.com/news/articles/c78v6v0j8v4o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-05 19:59:02",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "guardian-https://www.theguardian.com/business/2026/jan/05/claires-the-original-factory-shop-collapse-jobs-modella",
+        "source": "guardian",
+        "headline": "Claire’s and The Original Factory Shop near collapse, putting 2,550 jobs at risk",
+        "summary": "<p>Owner Modella starts insolvency proceedings for both chains, saying trading is ‘extremely challenging’</p><p>The retailers Claire’s and The Original Factory Shop are on the brink of administration, putting 2,550 jobs at risk.</p><p>Both chains are owned by Modella Capital, a private equity firm, which recently bought the <a href=\"https://www.theguardian.com/business/2025/mar/28/wh-smith-brand-to-disappear-as-76m-sale-of-stores-to-modella-agreed\">high street arm of WH Smith</a> – <a href=\"https://www.theguardian.com/business/2025/dec/24/tg-jones-brand-replaced-wh-smith-high-street\">renamed TG Jones</a>. Modella said in a statement that the climate on UK high streets was “extremely challenging” and data suggested “an alarming drop-off in pre-Christmas footfall”.</p> <a href=\"https://www.theguardian.com/business/2026/jan/05/claires-the-original-factory-shop-collapse-jobs-modella\">Continue reading...</a>",
+        "url": "https://www.theguardian.com/business/2026/jan/05/claires-the-original-factory-shop-collapse-jobs-modella",
+        "published_at": "2026-01-05 18:18:53",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "sky-https://news.sky.com/story/high-street-chains-claire8217s-and-tofs-on-brink-of-administration-13490854",
+        "source": "sky",
+        "headline": "Retailers Claire's and The Original Factory Shop on brink of collapse",
+        "summary": "The retailers Claire's and The Original Factory Shop (TOFS) are on the brink of collapse, putting more than 2,000 jobs at risk in a bleak start to the new year for the British high street.",
+        "url": "https://news.sky.com/story/high-street-chains-claire8217s-and-tofs-on-brink-of-administration-13490854",
+        "published_at": "2026-01-05 16:35:00",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "metro-https://metro.co.uk/?p=26089625",
+        "source": "metro",
+        "headline": "Thousands of high street jobs at risk after Claire’s and The Original Factory Shop go into administration",
+        "summary": "'We have worked intensively in an effort to save both businesses but neither has a realistic possibility of trading profitably again.'",
+        "url": "https://metro.co.uk/2026/01/05/thousands-high-street-jobs-risk-claires-original-factory-shop-go-administration-26089625/",
+        "published_at": "2026-01-05 18:49:50",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "standard-b1265091",
+        "source": "standard",
+        "headline": "Two UK high street chains go into administration as thousands of jobs are put at risk",
+        "summary": "<p>The two high street stores have been put into administration after facing significant financial difficulties</p>",
+        "url": "https://www.standard.co.uk/news/uk/original-factory-shop-claires-accessories-administration-b1265091.html",
+        "published_at": "2026-01-05 22:29:24",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-027",
+    "topic": "giant, factories, human-like, robots",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/cvgjm5x54ldo#4",
+        "source": "bbc",
+        "headline": "Car giant Hyundai to use human-like robots in factories",
+        "summary": "The firm plans to deploy the technology at the same plant that was involved in a huge immigration raid in 2025.",
+        "url": "https://www.bbc.com/news/articles/cvgjm5x54ldo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 03:26:38",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-028",
+    "topic": "",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.co.uk/news/10628994#5",
+        "source": "bbc",
+        "headline": "BBC News app",
+        "summary": "Top stories, breaking news, live reporting, and follow news topics that match your interests",
+        "url": "https://www.bbc.co.uk/news/10628994?at_medium=RSS&at_campaign=rss",
+        "published_at": "2025-04-30 14:04:28",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-029",
+    "topic": "strikes, captures, trump, venezuela",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.co.uk/sounds/play/p0mrykq0#6",
+        "source": "bbc",
+        "headline": "Trump strikes Venezuela, captures the President, says the US will take over",
+        "summary": "President Nicolas Maduro faces criminal charges in New York.",
+        "url": "https://www.bbc.co.uk/sounds/play/p0mrykq0?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-03 20:53:00",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "guardian-https://www.theguardian.com/world/2026/jan/05/trump-lawless-actions-in-venezuela-demand-a-resolute-response",
+        "source": "guardian",
+        "headline": "Trump’s lawless actions in Venezuela demand a resolute response | Letters",
+        "summary": "<p>International law cannot be selective, writes <strong>Hannah Walker</strong>, while <strong>Celia Cashman</strong> calls for an alliance to challenge to US actions in Venezuela, and <strong>Charlie Owen</strong> for clarity of language</p><p>Donald Trump’s own description of US actions in Venezuela – that it will “run” the country, remaining until Washington decides a political transition has occurred, and installing US oil companies to control production – outlines conduct that is plainly illegal under international law and sets a dangerous precedent (<a href=\"https://www.theguardian.com/world/2026/jan/04/us-running-venezuela-now-seems-less-likely-but-second-intervention-possible\">Donald Trump warns of ‘big price to pay’ if Caracas fails to toe line, 4 January</a>).</p><p>The UN charter prohibits the use or threat of force against another state, except in self-defence or with security council authorisation. Neither applies here. However illegitimate a government may be, regime change by invasion, occupation or foreign administration is unlawful. That rule exists precisely to prevent powerful states imposing political outcomes by force.</p> <a href=\"https://www.theguardian.com/world/2026/jan/05/trump-lawless-actions-in-venezuela-demand-a-resolute-response\">Continue reading...</a>",
+        "url": "https://www.theguardian.com/world/2026/jan/05/trump-lawless-actions-in-venezuela-demand-a-resolute-response",
+        "published_at": "2026-01-05 17:55:05",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-030",
+    "topic": "trump, donald, julius, compared",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.co.uk/sounds/play/p0mpbrwl#6",
+        "source": "bbc",
+        "headline": "Can Donald Trump be compared to Julius Caesar?",
+        "summary": "Historian Tom Holland answers your questions about President Trump, cricket and Spiderman",
+        "url": "https://www.bbc.co.uk/sounds/play/p0mpbrwl?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-05 06:00:00",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-031",
+    "topic": "unlikely, global, stardom, salah",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.co.uk/iplayer/episode/m002p54c/mo-salah-never-give-up?at_mid=hv8V5dpwvJ&at_campaign=Mo_Salah_Never_Give_Up&at_medium=display_ad&at_campaign_type=owned&at_nation=NET&at_audience_id=SS&at_product=iplayer&at_brand=m002p54c&at_ptr_name=bbc&at_ptr_type=media&at_format=image&at_objective=consumption&at_link_title=Mo_Salah_Never_Give_Up&at_bbc_team=BBC#7",
+        "source": "bbc",
+        "headline": "Mo Salah’s unlikely rise to global stardom",
+        "summary": "The story of Mo Salah’s unlikely rise to global stardom.",
+        "url": "https://www.bbc.co.uk/iplayer/episode/m002p54c/mo-salah-never-give-up?at_mid=hv8V5dpwvJ&at_campaign=Mo_Salah_Never_Give_Up&at_medium=display_ad&at_campaign_type=owned&at_nation=NET&at_audience_id=SS&at_product=iplayer&at_brand=m002p54c&at_ptr_name=bbc&at_ptr_type=media&at_format=image&at_objective=consumption&at_link_title=Mo_Salah_Never_Give_Up&at_bbc_team=BBC",
+        "published_at": "2025-12-10 06:00:00",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-032",
+    "topic": "sydney, endings, another",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/sport/cricket/articles/crmlng88w4lo#8",
+        "source": "bbc",
+        "headline": "'Sydney is a city of endings – this felt like another'",
+        "summary": "England's meek performance on day three of the fifth Ashes Test felt like the end of an era, says Stephan Shemilt.",
+        "url": "https://www.bbc.com/sport/cricket/articles/crmlng88w4lo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 09:00:00",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-033",
+    "topic": "chelsea, rosenior, means, world",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/sport/football/articles/cp37zvxgg9ko#8",
+        "source": "bbc",
+        "headline": "'It means the world to me' - Chelsea appoint Rosenior",
+        "summary": "Chelsea appoint Strasbourg manager Liam Rosenior as new head coach to replace Enzo Maresca.",
+        "url": "https://www.bbc.com/sport/football/articles/cp37zvxgg9ko?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 09:46:30",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-034",
+    "topic": "tactics, turmoil, amorim, inside",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/sport/football/articles/cly927pn4pno#8",
+        "source": "bbc",
+        "headline": "Tactics, transfers and turmoil - inside the fall of Amorim",
+        "summary": "After 14 months, Ruben Amorim has been sacked by Manchester United - but where did it all go wrong?",
+        "url": "https://www.bbc.com/sport/football/articles/cly927pn4pno?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-05 15:44:17",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-035",
+    "topic": "england, final, towards, ashes",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/sport/cricket/articles/cwy13zw1pz1o#8",
+        "source": "bbc",
+        "headline": "Smith and Head push England towards final Ashes loss",
+        "summary": "Steve Smith's ruthless unbeaten century and Travis Head’s majestic 163 on day three put Australia in total control of the fifth Ashes Test against England.",
+        "url": "https://www.bbc.com/sport/cricket/articles/cwy13zw1pz1o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 07:06:52",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-036",
+    "topic": "blurred, celtic, blunder, evidence",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/sport/football/articles/cx2lwljk4z9o#8",
+        "source": "bbc",
+        "headline": "'Nancy blunder evidence of Celtic's blurred vision'",
+        "summary": "There is \"no apparent big picture view at Celtic\", argues BBC Sport Scotland's Tom English as Wilfried Nancy and Paul Tisdale exit the ailing champions.",
+        "url": "https://www.bbc.com/sport/football/articles/cx2lwljk4z9o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-05 20:07:42",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "guardian-https://www.theguardian.com/football/2026/jan/05/celtics-nancy-catastrophe-is-another-indicator-of-a-club-embroiled-in-turmoil",
+        "source": "guardian",
+        "headline": "Celtic’s Nancy catastrophe is another indicator of a club embroiled in turmoil | Ewan Murray",
+        "summary": "<p>Even the return of Martin O’Neill is unlikely to placate supporters frustrated by poor performances, a lack of investment, and chaos in the boardroom</p><p>Any club confirming the end of an error after eight games owes an apology to their supporters. In Celtic’s case, even the admission of an all-time blunder in hiring Wilfried Nancy would be unlikely to placate the masses. Remorse has not been forthcoming anyway. As Martin O’Neill’s return as manager was confirmed, office bearers took it in turn to express disappointment at the Nancy affair. Which was very good of them.</p><p>Celtic do not have a monopoly on bad decision-making. It just currently feels as if that is the case. A club who have dominated in Scotland for more than a decade, who have vast resources and more scope to plan than others of much lower stature, should never have been seeking a fourth manager in one season. That they are points firmly towards a lack of strategy and direction. It is a preposterous situation. Celtic are lucky that O’Neill, 73, retains an appetite to work. He also ticks another box, that of being idolised in the stands.</p> <a href=\"https://www.theguardian.com/football/2026/jan/05/celtics-nancy-catastrophe-is-another-indicator-of-a-club-embroiled-in-turmoil\">Continue reading...</a>",
+        "url": "https://www.theguardian.com/football/2026/jan/05/celtics-nancy-catastrophe-is-another-indicator-of-a-club-embroiled-in-turmoil",
+        "published_at": "2026-01-05 20:05:15",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-037",
+    "topic": "england, three, australia, centuries",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/sport/cricket/videos/cj4l9r24zpxo#8",
+        "source": "bbc",
+        "headline": "Smith and Head score centuries as Australia punish England on day three",
+        "summary": "Travis Head scores 163 and Steve Smith ends unbeaten on 129 as Australia close on 518-7 in their first innings, leading England by 134 runs at stumps on day three of the fifth and final Ashes Test in Sydney.",
+        "url": "https://www.bbc.com/sport/cricket/videos/cj4l9r24zpxo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 08:05:20",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "guardian-https://www.theguardian.com/sport/2026/jan/06/smith-and-head-hit-centuries-to-help-australia-grind-england-into-the-dust",
+        "source": "guardian",
+        "headline": "Smith and Head hit centuries to help Australia grind England into the dust",
+        "summary": "<ul><li><p><a href=\"https://www.theguardian.com/sport/cricket/match/2026-01-04/england-cricket-team\">Fifth Ashes Test; day three: England 384. Australia 518-7</a></p></li><li><p>Host captain on 129 not out following Head’s 163 from 166</p></li></ul><p>They do things well here in Australia. On the first day of this fifth Test came a fitting tribute to the victims and first responders of the Bondi atrocity, and on the third the Sydney Cricket Ground was turned into a sea of pink to once again raise funds for the McGrath Foundation.</p><p>Out in the middle, however, Australian charity was in far shorter supply. Across three sessions their batters ground England’s bowlers into the dust, answering any questions about their motivation since securing the Ashes and throwing up a few more about their beaten opponents.</p> <a href=\"https://www.theguardian.com/sport/2026/jan/06/smith-and-head-hit-centuries-to-help-australia-grind-england-into-the-dust\">Continue reading...</a>",
+        "url": "https://www.theguardian.com/sport/2026/jan/06/smith-and-head-hit-centuries-to-help-australia-grind-england-into-the-dust",
+        "published_at": "2026-01-06 08:45:50",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  }
+]
