@@ -26,7 +26,15 @@ const SOURCE_META: Record<
   sky: { label: "Sky", bg: "bg-sky-600", text: "text-white" },
   metro: { label: "Metro", bg: "bg-yellow-400", text: "text-black" },
   standard: { label: "Evening Standard", bg: "bg-purple-600", text: "text-white" },
+  telegraph: { label: "Telegraph", bg: "bg-orange-600", text: "text-white" },
+  dailymail: { label: "Daily Mail", bg: "bg-pink-600", text: "text-white" },
+  mirror: { label: "Mirror", bg: "bg-gray-800", text: "text-white" },
+  gbnews: { label: "GB News", bg: "bg-green-600", text: "text-white" },
+  reuters: { label: "Reuters", bg: "bg-gray-500", text: "text-white" },
+  ap: { label: "AP", bg: "bg-blue-400", text: "text-white" },
+  times: { label: "The Times", bg: "bg-yellow-700", text: "text-black" },
 };
+
 
 const biasLabel = (bias: number) => {
   if (bias < -0.4) return "Left"
@@ -137,25 +145,16 @@ export default function App() {
                           </div>
                         </div>
 
-                        {/* Bias indicator */}
-                        <div className="flex flex-col items-center gap-2 w-12">
-                          {/* Bar */}
-                          <div className="relative h-full w-2 bg-zinc-600 rounded">
-                            {/* Slider */}
+                        <div className="flex flex-col items-center ml-3 self-center">
+                          <div className="w-1 h-24 bg-zinc-700 rounded-full relative">
                             <div
-                              className={`absolute left-1/2 -translate-x-1/2 w-4 h-2 rounded ${biasColor(
-                                article.bias_score
-                              )}`}
+                              className="w-1 h-1 bg-red-500 rounded-full absolute left-0"
                               style={{
-                                top: `${100 - biasPosition(article.bias_score)}%`,
+                                bottom: `${(article.bias_score + 1) / 2 * 100}%`
                               }}
                             />
                           </div>
-
-                          {/* Label */}
-                          <span className="text-xs text-zinc-400 text-center leading-tight">
-                            {biasLabel(article.bias_score)}
-                          </span>
+                          <span className="text-xs mt-1">{article.bias_score.toFixed(2)}</span>
                         </div>
                       </div>
                     </a>

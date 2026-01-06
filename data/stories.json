@@ -1,7 +1,7 @@
 [
   {
     "story_id": "story-001",
-    "topic": "trump, threatens, greenland, questions",
+    "topic": "trump, questions, greenland, painful",
     "articles": [
       {
         "id": "bbc-https://www.bbc.com/news/articles/cpwn2wjzwndo#0",
@@ -14,6 +14,16 @@
         "embedding": null
       },
       {
+        "id": "guardian-https://www.theguardian.com/world/video/2026/jan/06/trump-is-greenland-next-the-latest",
+        "source": "guardian",
+        "headline": "Is Greenland next for Donald Trump? | The Latest",
+        "summary": "<p>After the removal of Venezuela’s president, Nicolás Maduro, there are fears Donald Trump could turn his sights to Greenland, after he renewed his calls for the US to take control of the semi-autonomous Danish territory. While European leaders convened in Paris and rallied behind Denmark, one of Trump’s top aides ramped up the pressure by questioning Copenhagen's claim to the Arctic territory</p> <a href=\"https://www.theguardian.com/world/video/2026/jan/06/trump-is-greenland-next-the-latest\">Continue reading...</a>",
+        "url": "https://www.theguardian.com/world/video/2026/jan/06/trump-is-greenland-next-the-latest",
+        "published_at": "2026-01-06 18:22:21",
+        "bias_score": -0.5,
+        "embedding": null
+      },
+      {
         "id": "independent-b2894638",
         "source": "independent",
         "headline": "Starmer defies Trump over Greenland after US president threatens Nato ally",
@@ -22,420 +32,86 @@
         "published_at": "2026-01-05 20:16:10",
         "bias_score": -0.5,
         "embedding": null
+      },
+      {
+        "id": "dailymail-https://www.dailymail.co.uk/news/article-15438367/ukraine-peace-talks-russia-europe-greenland-live.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "source": "dailymail",
+        "headline": "Greenland PM says European support is important amid Trump takeover bid",
+        "summary": "LIVEBLOG: Follow the latest developments from Paris where Ukraine's allies meet for talks about the country's security and a potential ceasefire with Russia.",
+        "url": "https://www.dailymail.co.uk/news/article-15438367/ukraine-peace-talks-russia-europe-greenland-live.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "published_at": "2026-01-06 19:59:41",
+        "bias_score": 1.0,
+        "embedding": null
       }
     ]
   },
   {
     "story_id": "story-002",
-    "topic": "forces, journalists, organisations, security",
+    "topic": "storm, fresh, goretti, warnings",
     "articles": [
       {
-        "id": "bbc-https://www.bbc.com/news/articles/cd6w4y0eq70o#0",
+        "id": "bbc-https://www.bbc.com/news/articles/cx2x6z4n2wzo#0",
         "source": "bbc",
-        "headline": "Venezuelan security forces detain journalists from foreign news organisations",
-        "summary": "Venezuelans describe their fear of speaking out as 14 media workers are detained and police check people's social media.",
-        "url": "https://www.bbc.com/news/articles/cd6w4y0eq70o?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-01-06 13:24:44",
+        "headline": "Fresh snow and ice warnings as Storm Goretti approaches UK",
+        "summary": "Hundreds of schools have been closed due to the snow and cold temperatures.",
+        "url": "https://www.bbc.com/news/articles/cx2x6z4n2wzo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 19:18:06",
         "bias_score": 0.0,
         "embedding": null
       },
       {
-        "id": "mirror-https://www.mirror.co.uk/news/royals/prince-harrys-uk-security-review-36507018",
-        "source": "mirror",
-        "headline": "Prince Harry’s UK security review risks making Meghan Markle a 'target'",
-        "summary": "With the Duke of Sussex’s UK security entitlements under review, a royal expert believes it could put a target on Meghan Markle’s back if she were to return to her husband’s home country",
-        "url": "https://www.mirror.co.uk/news/royals/prince-harrys-uk-security-review-36507018",
-        "published_at": "2026-01-06 16:04:14",
+        "id": "guardian-https://www.theguardian.com/uk-news/2026/jan/06/disruption-storm-goretti-snow-strong-winds",
+        "source": "guardian",
+        "headline": "UK faces further disruption as Storm Goretti to bring heavy snow and strong winds",
+        "summary": "<p>Fresh warnings across parts of England and Wales will follow days of delays and closures from Oxford to Orkney</p><p>The UK is braced for further disruption as heavy snow and strong winds are forecast to hit swathes of England and Wales on Thursday, with the arrival of Storm Goretti.</p><p>Many parts of the country are already reeling from days of travel chaos and school closures, although Tuesday night was not expected to be as chilly as Monday, when temperatures fell to -12.5C in Norfolk, making it this winter’s coldest night so far.</p> <a href=\"https://www.theguardian.com/uk-news/2026/jan/06/disruption-storm-goretti-snow-strong-winds\">Continue reading...</a>",
+        "url": "https://www.theguardian.com/uk-news/2026/jan/06/disruption-storm-goretti-snow-strong-winds",
+        "published_at": "2026-01-06 18:03:25",
+        "bias_score": -0.5,
+        "embedding": null
+      },
+      {
+        "id": "sky-https://news.sky.com/story/storm-goretti-to-bring-heavy-snow-and-strong-winds-to-the-uk-13490981",
+        "source": "sky",
+        "headline": "Storm Goretti to bring heavy snow and strong winds to the UK - as major incident declared in part of Scotland",
+        "summary": "Britain's first named storm of the year is set to strike this week, bringing heavy snow and strong winds as a new year cold snap continues to bite.",
+        "url": "https://news.sky.com/story/storm-goretti-to-bring-heavy-snow-and-strong-winds-to-the-uk-13490981",
+        "published_at": "2026-01-06 09:00:00",
         "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "independent-b2895343",
+        "source": "independent",
+        "headline": "UK weather live: London hit by wintry showers before Storm Goretti snow warnings strike",
+        "summary": "<p>Met Office warns it’s not safe to drive, telling people to make only essential journeys</p>",
+        "url": "https://www.independent.co.uk/news/uk/home-news/uk-weather-latest-forecast-snow-warnings-storm-goretti-b2895343.html",
+        "published_at": "2026-01-06 15:01:20",
+        "bias_score": -0.5,
+        "embedding": null
+      },
+      {
+        "id": "dailymail-https://www.dailymail.co.uk/news/article-15439827/aussie-heatwave-melbourne-sydney-adelaide.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "source": "dailymail",
+        "headline": "Monster heatwave grips every state in Australia with temperatures soaring past 45C and extreme fire danger warnings issued",
+        "summary": "The intense heat will be persistent enough to be classified as a severe to extreme heatwave across every Australian state and territory this week.",
+        "url": "https://www.dailymail.co.uk/news/article-15439827/aussie-heatwave-melbourne-sydney-adelaide.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "published_at": "2026-01-06 20:11:06",
+        "bias_score": 1.0,
         "embedding": null
       }
     ]
   },
   {
     "story_id": "story-003",
-    "topic": "deepfakes, demands, appalling, should",
+    "topic": "six-month, practical, between, mandatory",
     "articles": [
       {
-        "id": "bbc-https://www.bbc.com/news/articles/crrn054nxe7o#0",
+        "id": "bbc-https://www.bbc.com/news/articles/clym5jvgdepo#0",
         "source": "bbc",
-        "headline": "Elon Musk's X should deal with 'appalling' Grok AI deepfakes, government demands",
-        "summary": "Grok is being used to digitally remove women's clothing - something victims describe as \"dehumanising\".",
-        "url": "https://www.bbc.com/news/articles/crrn054nxe7o?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-01-06 15:54:14",
-        "bias_score": 0.0,
-        "embedding": null
-      },
-      {
-        "id": "standard-b1265195",
-        "source": "standard",
-        "headline": "Liz Kendall calls on Musk’s X to take urgent action over ‘appalling’ deepfakes",
-        "summary": "Technology Secretary Liz Kendall said: ‘What we have been seeing online in recent days has been absolutely appalling.’",
-        "url": "https://www.standard.co.uk/news/uk/ofcom-liz-kendall-safety-services-tech-b1265195.html",
-        "published_at": "2026-01-06 14:57:19",
-        "bias_score": 0.0,
-        "embedding": null
-      },
-      {
-        "id": "mirror-https://www.mirror.co.uk/news/politics/elon-musks-x-slapped-down-36506039",
-        "source": "mirror",
-        "headline": "Elon Musk's X slapped down by UK over 'appalling' AI content",
-        "summary": "Elon Musk’s X has been slapped down by the UK's Technology Secretary Liz Kendall amid “absolutely appalling” deepfakes sexualising kids appearing on the platform",
-        "url": "https://www.mirror.co.uk/news/politics/elon-musks-x-slapped-down-36506039",
-        "published_at": "2026-01-06 14:29:43",
-        "bias_score": 0.0,
-        "embedding": null
-      }
-    ]
-  },
-  {
-    "story_id": "story-004",
-    "topic": "single, killed, punch",
-    "articles": [
-      {
-        "id": "bbc-https://www.bbc.com/news/articles/clyzvrxyxnxo#0",
-        "source": "bbc",
-        "headline": "Why I now hug the man who killed my son with a single punch",
-        "summary": "Joan Scourfield joins forces with Jacob Dunne to highlight the benefits of restorative justice.",
-        "url": "https://www.bbc.com/news/articles/clyzvrxyxnxo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-01-06 06:00:59",
-        "bias_score": 0.0,
-        "embedding": null
-      }
-    ]
-  },
-  {
-    "story_id": "story-005",
-    "topic": "deadly, before, swiss, years",
-    "articles": [
-      {
-        "id": "bbc-https://www.bbc.com/news/articles/cdx4zxk1np0o#0",
-        "source": "bbc",
-        "headline": "Swiss ski bar not inspected for five years before deadly fire, mayor says",
-        "summary": "The New Year's Eve fire at a bar in Crans-Montana killed 40 people and injured 116.",
-        "url": "https://www.bbc.com/news/articles/cdx4zxk1np0o?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-01-06 16:16:53",
-        "bias_score": 0.0,
-        "embedding": null
-      },
-      {
-        "id": "guardian-https://www.theguardian.com/world/2026/jan/06/no-safety-inspections-site-swiss-bar-fire-past-five-years-mayor-says",
-        "source": "guardian",
-        "headline": "No safety inspections at site of Swiss bar fire for past five years, mayor says",
-        "summary": "<p>Nicolas Féraud says he does not know why bar in Crans-Montana had not been inspected annually, as required by law</p><p>Authorities in Crans-Montana have said the bar that <a href=\"https://www.theguardian.com/world/2026/jan/01/several-dead-and-injured-in-explosion-swiss-ski-resort-town-crans-montana-police-say\">caught fire in the Swiss ski resort</a> on New Year’s Eve, killing 40 mainly young partygoers and injuring more than 100, had not been inspected by safety officers for the past five years.</p><p>“Periodic inspections were not conducted between 2020 and 2025. We bitterly regret this,” the mayor of the town, Nicolas Féraud, told a press conference in the town on Tuesday, five days after the disaster at Le Constellation bar.</p> <a href=\"https://www.theguardian.com/world/2026/jan/06/no-safety-inspections-site-swiss-bar-fire-past-five-years-mayor-says\">Continue reading...</a>",
-        "url": "https://www.theguardian.com/world/2026/jan/06/no-safety-inspections-site-swiss-bar-fire-past-five-years-mayor-says",
-        "published_at": "2026-01-06 10:38:20",
-        "bias_score": -0.5,
-        "embedding": null
-      }
-    ]
-  },
-  {
-    "story_id": "story-006",
-    "topic": "protests, majority, anti-government, provinces",
-    "articles": [
-      {
-        "id": "bbc-https://www.bbc.com/news/articles/cre28d2j2zxo#0",
-        "source": "bbc",
-        "headline": "Iran anti-government protests spread to majority of provinces, videos show",
-        "summary": "Videos show that unrest has spread to more than 50 towns and cities, including pro-government heartlands.",
-        "url": "https://www.bbc.com/news/articles/cre28d2j2zxo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-01-06 15:35:23",
-        "bias_score": 0.0,
-        "embedding": null
-      }
-    ]
-  },
-  {
-    "story_id": "story-007",
-    "topic": "tisdale, actress, group, toxic",
-    "articles": [
-      {
-        "id": "bbc-https://www.bbc.com/news/articles/c4g09l286e2o#0",
-        "source": "bbc",
-        "headline": "Actress Ashley Tisdale says she left her 'toxic mom group'",
-        "summary": "The High School Musical actress says she left the group of new mothers after being \"brought to tears\".",
-        "url": "https://www.bbc.com/news/articles/c4g09l286e2o?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-01-06 13:03:52",
-        "bias_score": 0.0,
-        "embedding": null
-      }
-    ]
-  },
-  {
-    "story_id": "story-008",
-    "topic": "zelensky, ukraine, replaces, security",
-    "articles": [
-      {
-        "id": "bbc-https://www.bbc.com/news/articles/cpv7myg2nw4o#0",
-        "source": "bbc",
-        "headline": "Zelensky replaces Ukraine's powerful security service chief",
-        "summary": "The Ukrainian president has come under heavy criticism for his reshuffling of one the country's most successful security agencies.",
-        "url": "https://www.bbc.com/news/articles/cpv7myg2nw4o?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-01-06 14:26:46",
-        "bias_score": 0.0,
-        "embedding": null
-      }
-    ]
-  },
-  {
-    "story_id": "story-009",
-    "topic": "daughter, award, could, tried",
-    "articles": [
-      {
-        "id": "bbc-https://www.bbc.com/news/articles/ceqz95w0njyo#0",
-        "source": "bbc",
-        "headline": "Man who tried to save mum and daughter from sea could get posthumous award",
-        "summary": "Mark Ratcliffe died trying to save Sarah Keeling and her daughter, Grace, at Withernsea, say police.",
-        "url": "https://www.bbc.com/news/articles/ceqz95w0njyo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-01-06 15:11:08",
-        "bias_score": 0.0,
-        "embedding": null
-      }
-    ]
-  },
-  {
-    "story_id": "story-010",
-    "topic": "running, claims, could, within",
-    "articles": [
-      {
-        "id": "bbc-https://www.bbc.com/news/articles/c4grxzxjjd8o#1",
-        "source": "bbc",
-        "headline": "Trump claims US oil firms could be 'up and running' in Venezuela within 18 months",
-        "summary": "Trump is open about his ambitions for scaled-up US operations, but analysts say such plans would take time.",
-        "url": "https://www.bbc.com/news/articles/c4grxzxjjd8o?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-01-06 14:57:22",
-        "bias_score": 0.0,
-        "embedding": null
-      },
-      {
-        "id": "guardian-https://www.theguardian.com/commentisfree/2026/jan/06/donald-trump-venezuela-coup-us-president-caracas",
-        "source": "guardian",
-        "headline": "Why the surprise over Trump’s Venezuela coup? US presidents promise isolation – and deliver war | Simon Jenkins",
-        "summary": "<p>Last week’s events in Caracas come in a long line of American interventions. The White House has awesome power and is never shy of using it</p><p>It is starting to trickle out. Last week in Caracas was not an invasion, it was a putsch. It was the militarised kidnap of one ruler to aid his more amenable deputy into power. Since April last year, <a href=\"https://x.com/inside_nk/status/2007857634603573733\">according to reports</a>, vice-president and now interim president Delcy Rodríguez and her brother Jorge – the president of the Venezuelan national assembly – have been <a href=\"https://www.miamiherald.com/news/nation-world/world/americas/venezuela/article312516272.html\">dealing secretly with Washington</a>. This has reportedly been via that hotspot of informal diplomacy, Qatar.</p><p>We have yet to know the details. But the rumours are plausible that last week’s episode was staged to look outrageous, including Delcy Rodríguez’s <a href=\"https://www.theguardian.com/world/2026/jan/04/delcy-rodriguez-tightrope-venezuela-interim-leader\">initial condemnation</a> of it as atrocious. President Nicolás Maduro was handed over to the Americans swiftly and peacefully. The only slip was Trump <a href=\"https://www.theguardian.com/world/2026/jan/04/us-running-venezuela-now-seems-less-likely-but-second-intervention-possible\">describing Delcy</a> as “quite gracious” before she was hastily sworn into office soon after the raid. A more serious slip was <a href=\"https://www.theguardian.com/world/live/2026/jan/06/venezuela-live-updates-maduro-trump-us-attack-opposition-machado-return\">his dismissal</a> of the opposition leader, María Corina Machado, as lacking “the support within or the respect within the country”. She had championed <a href=\"https://thedialogue.org/expert/gonzalez-urrutia\">Edmundo González Urrutia</a>, probable winner of <a href=\"https://www.theguardian.com/world/article/2024/jul/29/venezuela-election-result-maduro-urrutia\">the rigged</a> 2024 Venezuelan election, for which she won the Nobel peace prize Trump so coveted. Why no mention of him from Trump?</p><p>Simon Jenkins is a Guardian columnist and the author of <a href=\"https://guardianbookshop.com/a-short-history-of-america-9780241747599/\">A Short History of America: From Tea Party to Trump</a></p> <a href=\"https://www.theguardian.com/commentisfree/2026/jan/06/donald-trump-venezuela-coup-us-president-caracas\">Continue reading...</a>",
-        "url": "https://www.theguardian.com/commentisfree/2026/jan/06/donald-trump-venezuela-coup-us-president-caracas",
-        "published_at": "2026-01-06 14:02:41",
-        "bias_score": -0.5,
-        "embedding": null
-      },
-      {
-        "id": "metro-https://metro.co.uk/?p=26111879",
-        "source": "metro",
-        "headline": "‘Trump’s invasion of Venezuela has stranded our cruise ship’",
-        "summary": "Lizzy Meadowcroft and her partner Mark Crowther are stuck on a cruise ship in the Caribbean.",
-        "url": "https://metro.co.uk/2026/01/06/weve-stuck-a-cruise-ship-since-trump-invaded-venezuela-26111879/",
-        "published_at": "2026-01-06 16:49:44",
-        "bias_score": 0.0,
-        "embedding": null
-      }
-    ]
-  },
-  {
-    "story_id": "story-011",
-    "topic": "react, operation, trump, across",
-    "articles": [
-      {
-        "id": "bbc-https://www.bbc.com/news/videos/c4gv7q1yl3yo#1",
-        "source": "bbc",
-        "headline": "Trump supporters across US react to Venezuela operation",
-        "summary": "Trump supporters react after US forces seized Venezuela’s Nicolas Maduro with some welcoming the move and others expressing caution about what it means going forward.",
-        "url": "https://www.bbc.com/news/videos/c4gv7q1yl3yo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-01-06 15:29:28",
-        "bias_score": 0.0,
-        "embedding": null
-      },
-      {
-        "id": "guardian-https://www.theguardian.com/commentisfree/2026/jan/06/donald-trump-new-world-order-venezuela-cuba-mexico-colombia-greenland",
-        "source": "guardian",
-        "headline": "Trump’s new world order is being born – and Venezuela is just the start | Owen Jones",
-        "summary": "<p>The US president has been quite clear that Cuba, Mexico, Colombia and Greenland are in his sights. We must believe him</p><p>As Venezuela’s skyline lit up under <a href=\"https://www.theguardian.com/world/2026/jan/03/venezuela-attack-what-we-know-so-far-as-trump-claims-maduro-captured\">US bombs</a>, we were watching the morbid symptoms of a declining empire. That may sound counterintuitive. After all, the US has kidnapped a foreign leader, and Donald Trump has announced that he will “run” Venezuela. Surely this looks less like decay than intoxication: a superpower high on its own force.</p><p>But Trump’s great virtue, if it can be called that, is candour. Previous US presidents draped naked self-interest in the language of “democracy” and “human rights”. Trump dispenses with the costume. <a href=\"https://x.com/davenewworld_2/status/2007372939776405800\">In 2023</a>, he boasted: “When I left, Venezuela was ready to collapse. We would have taken it over, we would have gotten all that oil, it would have been right next door.” And this was no off-the-cuff remark. The logic of an oil grab, and much more besides, is laid out plainly in Trump’s recently published <a href=\"https://www.whitehouse.gov/wp-content/uploads/2025/12/2025-National-Security-Strategy.pdf\">National Security Strategy</a>.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/jan/06/donald-trump-new-world-order-venezuela-cuba-mexico-colombia-greenland\">Continue reading...</a>",
-        "url": "https://www.theguardian.com/commentisfree/2026/jan/06/donald-trump-new-world-order-venezuela-cuba-mexico-colombia-greenland",
-        "published_at": "2026-01-06 06:00:29",
-        "bias_score": -0.5,
-        "embedding": null
-      }
-    ]
-  },
-  {
-    "story_id": "story-012",
-    "topic": "right, action, venezuela, badenoch",
-    "articles": [
-      {
-        "id": "bbc-https://www.bbc.com/news/articles/ckgnxdpv2p9o#1",
-        "source": "bbc",
-        "headline": "US action in Venezuela morally right, Badenoch says",
-        "summary": "The Conservative leader tells the BBC the military operation raises \"serious questions about the rules-based order\".",
-        "url": "https://www.bbc.com/news/articles/ckgnxdpv2p9o?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-01-06 11:36:15",
-        "bias_score": 0.0,
-        "embedding": null
-      },
-      {
-        "id": "independent-b2895296",
-        "source": "independent",
-        "headline": "Trump was ‘morally right’ to attack Venezuela and seize Maduro, says Kemi Badenoch",
-        "summary": "<p>‘The legal certainty is not yet clear, morally I do think it was the right thing to do,’ Tory leader says </p>",
-        "url": "https://www.independent.co.uk/news/uk/politics/venezuela-trump-maduro-kemi-badenoch-conservatives-b2895296.html",
-        "published_at": "2026-01-06 13:40:49",
-        "bias_score": -0.5,
-        "embedding": null
-      }
-    ]
-  },
-  {
-    "story_id": "story-013",
-    "topic": "greenland",
-    "articles": [
-      {
-        "id": "bbc-https://www.bbc.com/news/articles/c74x4m71pmjo#1",
-        "source": "bbc",
-        "headline": "Why does US president want Greenland?",
-        "summary": "The US president's repeated demands to control Greenland could threaten the Nato military alliance.",
-        "url": "https://www.bbc.com/news/articles/c74x4m71pmjo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-01-06 13:33:24",
-        "bias_score": 0.0,
-        "embedding": null
-      }
-    ]
-  },
-  {
-    "story_id": "story-014",
-    "topic": "taking, football, fantasy",
-    "articles": [
-      {
-        "id": "bbc-https://www.bbc.com/news/articles/cewjqxxy2jxo#2",
-        "source": "bbc",
-        "headline": "Is AI taking the fun out of fantasy football?",
-        "summary": "Some fans of FPL and other leagues are turning to chatbots and apps to get a leg up over other players.",
-        "url": "https://www.bbc.com/news/articles/cewjqxxy2jxo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-01-06 10:21:01",
-        "bias_score": 0.0,
-        "embedding": null
-      }
-    ]
-  },
-  {
-    "story_id": "story-015",
-    "topic": "first, become, flight, geese",
-    "articles": [
-      {
-        "id": "bbc-https://www.bbc.com/news/articles/c3wz6p64gzyo#2",
-        "source": "bbc",
-        "headline": "How Geese took flight to become 'Gen Z's first great American band'",
-        "summary": "The New Yorkers, who are fourth in the BBC's Sound of 2026, say they're 'still processing' their rise.",
-        "url": "https://www.bbc.com/news/articles/c3wz6p64gzyo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-01-06 06:59:13",
-        "bias_score": 0.0,
-        "embedding": null
-      }
-    ]
-  },
-  {
-    "story_id": "story-016",
-    "topic": "nelson, there, child",
-    "articles": [
-      {
-        "id": "bbc-https://www.bbc.com/news/articles/c1m7r840gl0o#2",
-        "source": "bbc",
-        "headline": "I want to tell Jesy Nelson, there's hope, says mum of child with SMA",
-        "summary": "SMA is a progressive muscle-wasting disease that can cause death within two years if untreated.",
-        "url": "https://www.bbc.com/news/articles/c1m7r840gl0o?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-01-06 16:48:36",
-        "bias_score": 0.0,
-        "embedding": null
-      }
-    ]
-  },
-  {
-    "story_id": "story-017",
-    "topic": "changing, magical, india, fortunes",
-    "articles": [
-      {
-        "id": "bbc-https://www.bbc.com/news/articles/clyxln49760o#2",
-        "source": "bbc",
-        "headline": "The 'magical' blue flower changing farmers' fortunes in India",
-        "summary": "Indian farmers are turning to butterfly pea flower which is in demand for its bright blue colour.",
-        "url": "https://www.bbc.com/news/articles/clyxln49760o?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-01-06 00:01:52",
-        "bias_score": 0.0,
-        "embedding": null
-      }
-    ]
-  },
-  {
-    "story_id": "story-018",
-    "topic": "gamers, playing, runescape, classic",
-    "articles": [
-      {
-        "id": "bbc-https://www.bbc.com/news/articles/c4g6g1z3160o#2",
-        "source": "bbc",
-        "headline": "Why are more gamers than ever playing the 2000s classic RuneScape?",
-        "summary": "Millions of people have returned to the iconic online game to farm, go on quests and fight big bosses.",
-        "url": "https://www.bbc.com/news/articles/c4g6g1z3160o?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-01-06 00:06:01",
-        "bias_score": 0.0,
-        "embedding": null
-      }
-    ]
-  },
-  {
-    "story_id": "story-019",
-    "topic": "de-ice, boiling, water, windscreen",
-    "articles": [
-      {
-        "id": "bbc-https://www.bbc.com/weather/videos/c36zx50pdxlo#3",
-        "source": "bbc",
-        "headline": "'Do not use boiling water': What’s the best way to de-ice your car windscreen?",
-        "summary": "Frosty mornings mean extra time needed to clear your windscreen",
-        "url": "https://www.bbc.com/weather/videos/c36zx50pdxlo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-01-05 14:59:04",
-        "bias_score": 0.0,
-        "embedding": null
-      }
-    ]
-  },
-  {
-    "story_id": "story-020",
-    "topic": "during, still, weather, should",
-    "articles": [
-      {
-        "id": "bbc-https://www.bbc.com/news/articles/ckgk7zx7vzko#3",
-        "source": "bbc",
-        "headline": "Should I still walk my dog during cold weather?",
-        "summary": "Pets may need help to stay warm and safe when wintry conditions arrive.",
-        "url": "https://www.bbc.com/news/articles/ckgk7zx7vzko?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-01-04 05:26:07",
-        "bias_score": 0.0,
-        "embedding": null
-      }
-    ]
-  },
-  {
-    "story_id": "story-021",
-    "topic": "drive, weather",
-    "articles": [
-      {
-        "id": "bbc-https://www.bbc.com/news/articles/c93xywrq6z4o#3",
-        "source": "bbc",
-        "headline": "How to drive in snow and icy weather",
-        "summary": "If you have to drive during wintry weather, here is how to prepare your car, and what to carry with you.",
-        "url": "https://www.bbc.com/news/articles/c93xywrq6z4o?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-01-02 10:14:46",
-        "bias_score": 0.0,
-        "embedding": null
-      }
-    ]
-  },
-  {
-    "story_id": "story-022",
-    "topic": "three, tests, every, years",
-    "articles": [
-      {
-        "id": "bbc-https://www.bbc.com/news/articles/c205nxy0p31o#5",
-        "source": "bbc",
-        "headline": "Drivers over 70 to face eye tests every three years",
-        "summary": "The move is part of the government's new road safety strategy, which plans to reform driving laws in Britain.",
-        "url": "https://www.bbc.com/news/articles/c205nxy0p31o?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-01-06 14:40:27",
+        "headline": "Learner drivers may face mandatory six-month gap between theory and practical tests",
+        "summary": "A minimum learning period of up to six months could be introduced for learner drivers",
+        "url": "https://www.bbc.com/news/articles/clym5jvgdepo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 19:00:04",
         "bias_score": 0.0,
         "embedding": null
       },
@@ -458,12 +134,904 @@
         "published_at": "2026-01-06 07:00:00",
         "bias_score": 0.0,
         "embedding": null
+      },
+      {
+        "id": "mirror-https://www.mirror.co.uk/news/uk-news/man-crushed-death-tube-trains-36507153",
+        "source": "mirror",
+        "headline": "Man crushed to death by Tube trains after drivers 'thought he was inflatable doll'",
+        "summary": "An urgent warning has been issued to London Underground drivers after the 72-year-old was found to have been mistaken for an 'inflatable doll' before being crushed by four Tube trains",
+        "url": "https://www.mirror.co.uk/news/uk-news/man-crushed-death-tube-trains-36507153",
+        "published_at": "2026-01-06 17:22:10",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "dailymail-https://www.dailymail.co.uk/news/article-15438469/Migrants-share-video-tutorials-sneak-Britain-Footage-northern-France-teaches-asylum-seekers-jump-moving-lorries-without-drivers-realising.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "source": "dailymail",
+        "headline": "Migrants share video tutorials on how to sneak into Britain: Footage from northern France teaches asylum seekers to jump onto moving lorries without drivers realising",
+        "summary": "Videos posted on TikTok show migrants hiding behind bushes before sprinting after moving lorries and jumping onto them to break into their trailers.",
+        "url": "https://www.dailymail.co.uk/news/article-15438469/Migrants-share-video-tutorials-sneak-Britain-Footage-northern-France-teaches-asylum-seekers-jump-moving-lorries-without-drivers-realising.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "published_at": "2026-01-06 13:12:51",
+        "bias_score": 1.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-004",
+    "topic": "intercept, reports, tanker, seize",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/c7v0deypjl4o#0",
+        "source": "bbc",
+        "headline": "US may intercept and seize oil tanker sailing near UK, reports say",
+        "summary": "US officials have a warrant to seize the Russian-flagged ship accused of breaking sanctions.",
+        "url": "https://www.bbc.com/news/articles/c7v0deypjl4o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 19:47:29",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "dailymail-https://www.dailymail.co.uk/news/article-15438147/Two-British-tourists-cheat-death-sailing-boat-hit-cargo-vessel-sinks-middle-night-Colombias-coast-Caribbean-voyage.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "source": "dailymail",
+        "headline": "Two British tourists cheat death after sailing boat is hit by a cargo vessel and sinks in the middle of the night off Colombia's coast during Caribbean voyage",
+        "summary": "Their rescuers published video footage overnight showing them helping the stricken travellers to safety and taking them to dry land where they were checked over by doctors.",
+        "url": "https://www.dailymail.co.uk/news/article-15438147/Two-British-tourists-cheat-death-sailing-boat-hit-cargo-vessel-sinks-middle-night-Colombias-coast-Caribbean-voyage.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "published_at": "2026-01-06 10:37:48",
+        "bias_score": 1.0,
+        "embedding": null
+      },
+      {
+        "id": "gbnews-https://www.gbnews.com/news/us/donald-trump-plans-seize-venezuela-oil-tanker-coast-ireland",
+        "source": "gbnews",
+        "headline": "US eyes Irish coast as Trump plans to seize Venezuelan oil tanker after daring escape",
+        "summary": "<br /><p>The US could seize a Venezuelan-linked oil tanker off the Irish coast which evaded capture last month, according to intelligence officials.</p><p>The US has been pursuing the vessel, which was heading to Venezuela and is formerly known as Bella 1, for several weeks.</p><h3></h3><br /><p>An American official familiar with the matter said last month the US coast guard was potentially planning to board the tanker in attempts to seize it.</p><p>The tanker has since been spotted in the Atlantic about 500 miles from the west coast of Ireland, The Telegraph reports.</p><h3></h3><br /><div class=\"trending-wrapper\">\n<div class=\"trending-header\">TRENDING</div>\n<div class=\"tabs\">\n<div class=\"tab active\">Stories</div>\n<div class=\"tab\">Videos</div>\n<div class=\"tab\">Your Say</div>\n</div>\n<div class=\"tab-content active\" id=\"stories\"></div>\n<div class=\"tab-content\" id=\"videos\"></div>\n<div class=\"tab-content\" id=\"your-say\"></div>\n</div><h3></h3><br /><img alt=\"Bella 1\" class=\"rm-shortcode\" id=\"98401\" src=\"https://www.gbnews.com/media-library/bella-1.jpg?id=62673328&amp;width=980\" /><h3></h3><br /><p>The ship is now known as Marinera and is sailing under the Russian flag.</p><p>Two intelligence officials with knowledge of the plans said the US would rather seize the ship than sink it, CBS reports.</p><p>The potential operation could replicate one carried out last month, which saw the US seize another oil tanker after it left port in Venezuela, they added.</p><p>Donald Trump previously ordered a \"blockade\" of all sanctioned oil tankers entering and leaving Venezuela, in a move to increase pressure on the country's leader.</p><p>The US <a href=\"https://www.gbnews.com/news/world/venezuela-attack-donald-trump-nicolas-maduro-captured-airstrikes\" target=\"_self\">launched \"large-scale airstrikes\" on the Venezuelan capital,</a> Caracas, at around 1.50am local time (5.50am GMT) on Saturday.</p><h3></h3><br /><div class=\"embed-latest\"></div><h3></h3><br /><img alt=\"Venezuela attacks\" class=\"rm-shortcode\" id=\"448e7\" src=\"https://www.gbnews.com/media-library/venezuela-attacks.jpg?id=62655707&amp;width=980\" /><h3></h3><br /><p>President Nicolas Maduro and his wife, Cilia Flores, were captured and transported via helicopter to a US Navy ship offshore before being transported to New York City.</p><p>The Venezuelan leader was eventually taken to the Metropolitan Detention Center in Brooklyn under a heavy police guard.</p><p>Images released by US authorities showed him handcuffed and blindfolded during the flight and later being led down a hallway at the offices of the US Drug Enforcement Administration, where he was heard wishing a \"happy New Year\".</p><p>Maduro was indicted on various federal charges, including narco-terrorism conspiracy.</p><h3>LATEST DEVELOPMENTS</h3><br /><ul><li><a href=\"https://www.gbnews.com/news/world/greenland-european-leaders-deliver-stark-warning-donald-trump\" target=\"_self\">European leaders deliver stark warning to Donald Trump over Greenland takeover threats</a></li><li><a href=\"https://www.gbnews.com/news/us/video-donald-trump-claim-us-now-runs-venezuela\" target=\"_self\">WATCH: Donald Trump claims US 'now runs Venezuela' as he declares 'no one can take us'</a></li><li><a href=\"https://www.gbnews.com/news/us/jd-vance-suspect-home-attack-transgender\" target=\"_self\">Suspect in attack on JD Vance's home is transgender daughter of wealthy Democrat donor</a></li></ul><h3></h3><br /><img alt=\"Nicolas Maduro\" class=\"rm-shortcode\" id=\"19eb8\" src=\"https://www.gbnews.com/media-library/nicolas-maduro.jpg?id=62661873&amp;width=980\" /><h3></h3><br /><div class=\"embed-dontmiss\"></div><h3></h3><br /><p>At a court hearing in the US today, <a href=\"https://www.gbnews.com/news/world/nicolas-maduro-says-he-has-been-kidnapped-and-tells-judge-i-am-still-president-as-he-pleads-not-guilty\" target=\"_self\">Maduro pleaded not guilty to narcotics charges.</a></p><p>\"I am innocent. I am not guilty. I am a decent man. I am still president of my country,\" the 63-year-old said through an interpreter, before being cut off by US District Judge Alvin Hellerstein in Manhattan federal court.</p><p>His wife, Flores, also pleaded not guilty, insisting she is \"completely innocent\".</p><p>Maduro was then ordered to appear in court on March 17 for his next hearing.</p><h3></h3><br /><div class=\"embed-mostread\"></div><h3></h3><br /><p>The captured president's court appearance follows years of mounting legal pressure from the United States, which first indicted the Venezuelan president in 2020 on charges linked to drug trafficking and narco-terrorism.</p><p>US prosecutors allege that Maduro helped lead the so-called “Cartel of the Suns,” accused of conspiring with Colombia’s FARC rebels to flood the United States with cocaine.</p><p>The indictment claims Maduro used narcotics trafficking as a weapon against the US, while allegedly accepting millions of dollars in bribes to protect drug routes through Venezuela.</p><p>Washington has long accused his government of corruption, human rights abuses and undermining democratic institutions.</p><p>Maduro has consistently denied the allegations, dismissing them as politically motivated and part of a broader campaign to remove him from power.</p><h3></h3><br /><p><br /></p><p><br /></p><div id=\"our-standards-wrapper\">\n<p class=\"our-standards\">\n<strong>Our Standards:\n        <a href=\"https://www.gbnews.com/about-us/our-editorial-charter\">The GB News Editorial Charter</a>\n</strong>\n</p>\n</div>",
+        "url": "https://www.gbnews.com/news/us/donald-trump-plans-seize-venezuela-oil-tanker-coast-ireland",
+        "published_at": "2026-01-06 19:49:03",
+        "bias_score": 1.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-005",
+    "topic": "tech-filled, bricks, unveils, smart",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/crmlnmnwzk2o#0",
+        "source": "bbc",
+        "headline": "Lego unveils tech-filled Smart Bricks - to play experts' dismay",
+        "summary": "Lego says its new tech-enabled products are its \"most revolutionary innovation\" since it launched its mini-figurines in 1978.",
+        "url": "https://www.bbc.com/news/articles/crmlnmnwzk2o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 16:20:15",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "guardian-https://www.theguardian.com/lifeandstyle/2026/jan/06/lego-introduces-smart-bricks-with-sound-and-light-effects-to-new-star-wars-sets",
+        "source": "guardian",
+        "headline": "Lego introduces ‘smart bricks’ with sound and light effects to new Star Wars sets",
+        "summary": "<p>But some argue new ‘Smart Play’ technology undermines the Danish construction toy’s gift for harnessing a child’s own imagination</p><p>It may be time to retire that hyperspace zoom noise you perfected while playing with Lego spacecraft. No longer must you “pshww-pshww” to convince your playmate their enemy space station has been doomed by your lasers. “Smart” bricks, with play-sensitive miniature speakers, are being added to the arsenal of the Lego enthusiast in a move the Danish toy giant believes will combine creative play with technology without the need for a screen.</p><p>The smart bricks – in the shape of a normal two-by-four Lego brick – are being launched in three Star Wars-themed sets and are powered by a custom-made chip smaller than a single Lego stud. When installed in Luke Skywalker’s X-wing fighter, they make the required “woosh” noises, depending on how the player twists and turns the craft through the air. The hard-to-impersonate bleeps and blips of the droid R2D2 are also replicated.</p> <a href=\"https://www.theguardian.com/lifeandstyle/2026/jan/06/lego-introduces-smart-bricks-with-sound-and-light-effects-to-new-star-wars-sets\">Continue reading...</a>",
+        "url": "https://www.theguardian.com/lifeandstyle/2026/jan/06/lego-introduces-smart-bricks-with-sound-and-light-effects-to-new-star-wars-sets",
+        "published_at": "2026-01-06 19:59:33",
+        "bias_score": -0.5,
+        "embedding": null
+      },
+      {
+        "id": "dailymail-https://www.dailymail.co.uk/news/article-15437803/Stranger-Things-Royal-Mail-stamps-Netflix.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "source": "dailymail",
+        "headline": "Stranger Mailings! Royal Mail unveils set of stamps commemorating the end of hit Netflix show Stranger Things",
+        "summary": "The sci-fi series, following a group of kids from the fictional town of Hawkins as they fight against evil forces, dropped its final episode on New Year's Day in the UK.",
+        "url": "https://www.dailymail.co.uk/news/article-15437803/Stranger-Things-Royal-Mail-stamps-Netflix.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "published_at": "2026-01-06 09:05:44",
+        "bias_score": 1.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-006",
+    "topic": "demands, should, deepfakes, appalling",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/crrn054nxe7o#0",
+        "source": "bbc",
+        "headline": "Elon Musk's X should deal with 'appalling' Grok AI deepfakes, government demands",
+        "summary": "Grok is being used to digitally remove women's clothing - something victims describe as \"dehumanising\".",
+        "url": "https://www.bbc.com/news/articles/crrn054nxe7o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 17:01:46",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "gbnews-https://www.gbnews.com/politics/elon-musk-labour-x-fake-sexualised-images",
+        "source": "gbnews",
+        "headline": "'Absolutely appalling!' Labour hits out at Elon Musk’s social media platform X over fake sexualised images",
+        "summary": "<br /><p class=\"\">Labour has called on Elon Musk’s social media platform X to urgently deal with its artificial intelligence service Grok being used to create sexualised deepfake images.</p><p>Technology Secretary Liz Kendall backed regulator Ofcom, which is looking into X and xAI, the firm founded by Mr Musk which created Grok, to take \"any enforcement action\" deemed necessary.</p><h3></h3><br /><p>Users of X, formerly known as Twitter, appear to have prompted Grok to generate images of children and young women \"in minimal clothing\".</p><p>A post on the Grok X account said it was aware there have been \"isolated cases where users prompted for and received AI images depicting minors in minimal clothing\".</p><h3></h3><br /><div class=\"trending-wrapper\">\n<div class=\"trending-header\">TRENDING</div>\n<div class=\"tabs\">\n<div class=\"tab active\">Stories</div>\n<div class=\"tab\">Videos</div>\n<div class=\"tab\">Your Say</div>\n</div>\n<div class=\"tab-content active\" id=\"stories\"></div>\n<div class=\"tab-content\" id=\"videos\"></div>\n<div class=\"tab-content\" id=\"your-say\"></div>\n</div><h3></h3><br /><p>Ms Kendall said: \"What we have been seeing online in recent days has been absolutely appalling, and unacceptable in decent society.</p><p>\"No one should have to go through the ordeal of seeing intimate deepfakes of themselves online.</p><p>\"We cannot and will not allow the proliferation of these demeaning and degrading images, which are disproportionately aimed at women and girls.</p><p>\"X needs to deal with this urgently. It is absolutely right that Ofcom is looking into this as a matter of urgency and it has my full backing to take any enforcement action it deems necessary.\"</p><h3></h3><br /><img alt=\"Elon Musk\" class=\"rm-shortcode\" id=\"7f3a3\" src=\"https://www.gbnews.com/media-library/elon-musk.jpg?id=62672550&amp;width=980\" /><h3></h3><br /><p>Ms Kendall said efforts to curb the spread of fake nude images were not about restricting freedom of expression, but instead was about \"upholding the law\".</p><p>She said: “We have made intimate image abuse and cyberflashing priority offences under the Online Safety Act including where images are AI-generated. </p><p>\"This means platforms must prevent such content from appearing online and act swiftly to remove it if it does.</p><p>\"Violence against women and girls stains our society, and that is why we have also legislated to ban the creation of explicit deepfakes without consent, which are both degrading and harmful.\"</p><h3>LATEST DEVELOPMENTS</h3><br /><ul><li><a href=\"https://www.gbnews.com/news/world/grok-elon-musk-x-under-fire-ofcom-complaints-undress-minors\" target=\"_self\">Elon Musk's X under fire from Ofcom over complaints it let users undress minors in photographs</a></li><li><a href=\"https://www.gbnews.com/celebrity/elon-musk-donald-trump-venezuela-nicolas-maduro-capture-x\" target=\"_self\">Elon Musk sets aside Donald Trump differences as he makes feelings clear on Venezuela operation: 'A win for the world!'<br /></a></li><li><a href=\"https://www.gbnews.com/science/space-forge-british-company-sends-tiny-factory-capable-orbit\" rel=\"nofollow\" target=\"_blank\">British company that worked with Elon Musk sends tiny factory capable of reaching 1,000C into space</a><a href=\"https://www.gbnews.com/celebrity/elon-musk-donald-trump-venezuela-nicolas-maduro-capture-x\" target=\"_self\"></a></li></ul><h3></h3><br /><img alt=\"\\u200b Technology Liz Kendall\" class=\"rm-shortcode\" id=\"734e5\" src=\"https://www.gbnews.com/media-library/u200b-technology-liz-kendall.jpg?id=62672555&amp;width=980\" /><h3></h3><br /><p>According to research from AI Forensics, a Paris-based non-profit, across 50,000 mentions of @Grok on X and 20,000 images generated by the tool, at least a quarter of the Grok mentions instructed the tool to generate an image.</p><p> Out of those, there was a high prevalence of terms including \"her\", \"put\", \"remove\", \"bikini\" and \"clothing\".</p><p>More than half the images were of people in \"minimal attire\" such as underwear or bikinis, the majority being women who appeared to be under the age of 30. Researchers said two per cent appear to show people aged 18 or under. </p><p>Mr Musk himself appeared to poke fun at the controversy earlier on Friday, posting laugh-cry emojis in response to AI edits of famous people, including himself, in bikinis.</p><h3></h3><br /><img alt=\"\\u200bXAI has come under fire\" class=\"rm-shortcode\" id=\"dcc6a\" src=\"https://www.gbnews.com/media-library/u200bxai-has-come-under-fire.jpg?id=62672584&amp;width=980\" /><h3></h3><br /><p>The tech tycoon also insisted \"anyone using Grok to make illegal content will suffer the same consequences as if they uploaded illegal content\".</p><p>An X spokesman said: \"We take action against illegal content on X, including child sexual abuse material (CSAM), by removing it, permanently suspending accounts, and working with local governments and law enforcement as necessary.\"</p><p>In response to a request for a comment on Ms Kendall’s statement, an automated response from xAI said: \"Legacy media lies.\"</p><p>The generation of images of women and minors in extremely skimpy clothing has previously been referred to by X as \"spicy mode.\"</p><h3></h3><br /><img alt=\"\\u200bThe former X headquarters\" class=\"rm-shortcode\" id=\"5cb63\" src=\"https://www.gbnews.com/media-library/u200bthe-former-x-headquarters.jpg?id=62672586&amp;width=980\" /><h3></h3><br /><p>The European Commission said it was \"very aware\" of the fact that X was offering the so-called \"spicy mode,\" spokesman Thomas Regnier told reporters.</p><p>He said: \"This is not spicy. This is illegal. This is appalling. This is disgusting. This is how we see it, and this has no place in Europe.\"</p><p>Ofcom said it was aware of \"serious concerns\" raised about the feature. </p><p>A spokesman said: \"We have made urgent contact with X and xAI to understand what steps they have taken to comply with their legal duties to protect users in the UK.\"</p><h3></h3><br /><p><strong>Our Standards:\n        <a href=\"https://www.gbnews.com/about-us/our-editorial-charter\">The GB News Editorial Charter</a></strong></p>",
+        "url": "https://www.gbnews.com/politics/elon-musk-labour-x-fake-sexualised-images",
+        "published_at": "2026-01-06 15:00:52",
+        "bias_score": 1.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-007",
+    "topic": "wrong, family, crash",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/cgm4yv4rlnpo#0",
+        "source": "bbc",
+        "headline": "Police told wrong family teen had died in crash",
+        "summary": "South Yorkshire Police says it mixed up the identities of the teen with another male in the car.",
+        "url": "https://www.bbc.com/news/articles/cgm4yv4rlnpo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 17:00:36",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "guardian-https://www.theguardian.com/uk-news/2026/jan/06/south-yorkshire-police-told-wrong-family-teenager-had-died-in-crash",
+        "source": "guardian",
+        "headline": "South Yorkshire police told wrong family teenager had died in crash",
+        "summary": "<p>Force refers itself to police watchdog over mistake in identifying two boys, one who survived and one who died, in December collision</p><p>The family of a teenager badly injured in a car crash were told that he had died after a mistake in identifying him and another victim, police have said.</p><p>South Yorkshire police said it had referred itself to the Independent Office for Police Conduct (IOPC) over the mis-identification, which happened after a serious collision on Todwick Road in Rotherham on 13 December.</p> <a href=\"https://www.theguardian.com/uk-news/2026/jan/06/south-yorkshire-police-told-wrong-family-teenager-had-died-in-crash\">Continue reading...</a>",
+        "url": "https://www.theguardian.com/uk-news/2026/jan/06/south-yorkshire-police-told-wrong-family-teenager-had-died-in-crash",
+        "published_at": "2026-01-06 18:00:01",
+        "bias_score": -0.5,
+        "embedding": null
+      },
+      {
+        "id": "sky-https://news.sky.com/story/south-yorkshire-police-admit-wrongly-telling-trevor-wynns-family-he-had-died-following-deadly-rotherham-car-crash-13491228",
+        "source": "sky",
+        "headline": "Police wrongly told family their son had died in car crash",
+        "summary": "A police force has admitted it told the family of a teenage boy that he had died in a car crash, when he had in fact survived.",
+        "url": "https://news.sky.com/story/south-yorkshire-police-admit-wrongly-telling-trevor-wynns-family-he-had-died-following-deadly-rotherham-car-crash-13491228",
+        "published_at": "2026-01-06 16:38:00",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "metro-https://metro.co.uk/?p=26113932",
+        "source": "metro",
+        "headline": "Police tell family their son was killed in a tragic car crash – weeks later they realised their mistake",
+        "summary": "Trevor Wynn, 17, was thought to have been killed in a horror crash near Rotherham on December 13.",
+        "url": "https://metro.co.uk/2026/01/06/police-tell-family-son-killed-a-tragic-car-crash-weeks-later-realised-mistake-26113932/",
+        "published_at": "2026-01-06 18:53:28",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "standard-b1265222",
+        "source": "standard",
+        "headline": "Police told wrong family that teenager had been killed in deadly crash",
+        "summary": "South Yorkshire Police told the family of a 17-year-old who was badly injured in a crash in Rotherham last month that he had died.",
+        "url": "https://www.standard.co.uk/news/uk/south-yorkshire-police-police-rotherham-independent-iopc-b1265222.html",
+        "published_at": "2026-01-06 16:09:25",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "mirror-https://www.mirror.co.uk/news/police-told-wrong-family-teenager-36507802",
+        "source": "mirror",
+        "headline": "Police tell wrong family their teenager had died after fatal crash",
+        "summary": "South Yorkshire Police say they mixed up the identities of two teen boys involved in a car crash - one was killed while the other was sedated in hospital - telling the wrong family their son had died",
+        "url": "https://www.mirror.co.uk/news/police-told-wrong-family-teenager-36507802",
+        "published_at": "2026-01-06 17:21:04",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "dailymail-https://www.dailymail.co.uk/news/article-15439149/Police-identify-WRONG-teenage-crash-victim-tell-parents-died.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "source": "dailymail",
+        "headline": "Police wrongly told parents their teenage son had died in crash days before Christmas when he was actually alive in hospital... leaving family grieving for THREE weeks before being told the truth",
+        "summary": "The staggering blunder meant the family of one boy, 18-year-old Joshua Johnson, spent Christmas believing he was under sedation in hospital, only to be told he in fact passed away in the tragic smash.",
+        "url": "https://www.dailymail.co.uk/news/article-15439149/Police-identify-WRONG-teenage-crash-victim-tell-parents-died.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "published_at": "2026-01-06 19:23:43",
+        "bias_score": 1.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-008",
+    "topic": "released, murderer, absconded",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/c4grxp52g5do#0",
+        "source": "bbc",
+        "headline": "New CCTV released in hunt for absconded murderer",
+        "summary": "Two absconded prisoners are believed to have been spotted a number of times in recent days.",
+        "url": "https://www.bbc.com/news/articles/c4grxp52g5do?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 18:39:22",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "sky-https://news.sky.com/story/new-cctv-images-released-in-hunt-for-murderer-and-second-prisoner-at-large-after-new-years-day-escape-13490765",
+        "source": "sky",
+        "headline": "New CCTV images released in hunt for on-the-run murderer and second prisoner",
+        "summary": "Police have released new CCTV images of a convicted murderer and a second prisoner who escaped from a prison in Cromhall, Gloucestershire on New Year's Day.",
+        "url": "https://news.sky.com/story/new-cctv-images-released-in-hunt-for-murderer-and-second-prisoner-at-large-after-new-years-day-escape-13490765",
+        "published_at": "2026-01-05 14:05:00",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-009",
+    "topic": "daughter, award, posthumous, tried",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/ceqz95w0njyo#0",
+        "source": "bbc",
+        "headline": "Man who tried to save mum and daughter from sea could get posthumous award",
+        "summary": "Mark Ratcliffe died trying to save Sarah Keeling and her daughter, Grace, at Withernsea, say police.",
+        "url": "https://www.bbc.com/news/articles/ceqz95w0njyo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 15:11:08",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "standard-b1265244",
+        "source": "standard",
+        "headline": "Woman charged with murder of four-year-old daughter in house fire",
+        "summary": "Lesma-Rose Wibier died in hospital following the blaze in Rusholme, Manchester, on March 2 last year.",
+        "url": "https://www.standard.co.uk/news/uk/manchester-greater-manchester-police-press-association-b1265244.html",
+        "published_at": "2026-01-06 18:07:31",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "dailymail-https://www.dailymail.co.uk/news/article-15438449/Mother-four-48-killed-young-daughter-seriously-injured-car-hit-van-driving-wrong-road-inquest-hears.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "source": "dailymail",
+        "headline": "Mother-of-four, 48, was killed and her young daughter seriously injured after car hit by van driving on the wrong side of the road, inquest hears",
+        "summary": "A 'kind and generous' mother-of-four was killed and her daughter seriously injured when a van on the wrong side of the road smashed into their car, an inquest heard.",
+        "url": "https://www.dailymail.co.uk/news/article-15438449/Mother-four-48-killed-young-daughter-seriously-injured-car-hit-van-driving-wrong-road-inquest-hears.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "published_at": "2026-01-06 11:56:27",
+        "bias_score": 1.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-010",
+    "topic": "talks, caretaker",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/sport/football/articles/c931qgk3xgqo#0",
+        "source": "bbc",
+        "headline": "Man Utd hold talks with trio over caretaker role",
+        "summary": "Manchester United hold talks with former players Darren Fletcher, Michael Carrick and Ole Gunnar Solskjaer about becoming the club's caretaker manager.",
+        "url": "https://www.bbc.com/sport/football/articles/c931qgk3xgqo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 17:12:54",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-011",
+    "topic": "months, trump, venezuela, within",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/c4grxzxjjd8o#1",
+        "source": "bbc",
+        "headline": "Trump claims US oil firms could be 'up and running' in Venezuela within 18 months",
+        "summary": "Trump is open about his ambitions for scaled-up US operations, but analysts say such plans would take time.",
+        "url": "https://www.bbc.com/news/articles/c4grxzxjjd8o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 14:57:22",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "guardian-https://www.theguardian.com/world/2026/jan/06/yvette-cooper-criticise-trump-venezuela-ukraine",
+        "source": "guardian",
+        "headline": "Why won’t Yvette Cooper criticise Trump over Venezuela? Look no further than Ukraine",
+        "summary": "<p>The foreign secretary faces a tight balancing act between keeping the US involved in peace talks, and trying to maintain international order </p><p>Anyone trying to understand why Yvette Cooper studiously avoided saying whether the UK viewed <a href=\"https://www.theguardian.com/world/2026/jan/04/tactical-surprise-and-air-dominance-how-the-us-snatched-maduro-in-two-and-a-half-hours\">the kidnapping of Nicolás Maduro</a> as a breach of international law only needs to look to what was planned in Paris a day later.</p><p><a href=\"https://www.theguardian.com/world/2026/jan/05/mps-across-parties-criticise-ministers-for-stance-on-trump-attack-on-venezuela\">After the foreign secretary’s 90-minute humiliation in the House of Commons</a> on Monday night, a joint statement was expected in the French capital by the coalition of the willing – and a draft included the US promising binding security guarantees to protect Ukraine in the event of a further Russian attack.</p> <a href=\"https://www.theguardian.com/world/2026/jan/06/yvette-cooper-criticise-trump-venezuela-ukraine\">Continue reading...</a>",
+        "url": "https://www.theguardian.com/world/2026/jan/06/yvette-cooper-criticise-trump-venezuela-ukraine",
+        "published_at": "2026-01-06 17:02:40",
+        "bias_score": -0.5,
+        "embedding": null
+      },
+      {
+        "id": "metro-https://metro.co.uk/?p=26111879",
+        "source": "metro",
+        "headline": "‘Trump’s invasion of Venezuela has stranded our cruise ship’",
+        "summary": "Lizzy Meadowcroft and her partner Mark Crowther are stuck on a cruise ship in the Caribbean.",
+        "url": "https://metro.co.uk/2026/01/06/weve-stuck-a-cruise-ship-since-trump-invaded-venezuela-26111879/",
+        "published_at": "2026-01-06 16:49:44",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "dailymail-https://www.dailymail.co.uk/news/article-15439049/donald-trump-polling-venezuela-maduro-capture.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "source": "dailymail",
+        "headline": "Trump's Venezuela gamble hailed a success as exclusive poll reveals how many Americans back Maduro's capture by Delta Force",
+        "summary": "More Americans support President Donald Trump's decision to capture Venezuelan dictator Nicolás Maduro than don't, new polling from the Daily Mail has found.",
+        "url": "https://www.dailymail.co.uk/news/article-15439049/donald-trump-polling-venezuela-maduro-capture.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "published_at": "2026-01-06 18:52:36",
+        "bias_score": 1.0,
+        "embedding": null
+      },
+      {
+        "id": "gbnews-https://www.gbnews.com/news/us/video-donald-trump-claim-us-now-runs-venezuela",
+        "source": "gbnews",
+        "headline": "WATCH: Donald Trump claims US 'now runs Venezuela' as he declares 'no one can take us'",
+        "summary": "<br /><p>Donald Trump said the United States had “proved once again” it has the “most powerful, most lethal, most sophisticated and most fearsome military on planet Earth”.</p><p>The President claimed America’s military strength is “not even close” to any other nation.</p><p>“Nobody can take us. Nobody,” Mr Trump said.</p><p>He added: “Nobody has our weapons. Nobody has the quality of our weapons.”</p><p><strong>WATCH THE CLIP ABOVE FOR MORE </strong></p>",
+        "url": "https://www.gbnews.com/news/us/video-donald-trump-claim-us-now-runs-venezuela",
+        "published_at": "2026-01-06 15:59:50",
+        "bias_score": 1.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-012",
+    "topic": "venezuelan, security, journalists, forces",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/cd6w4y0eq70o#1",
+        "source": "bbc",
+        "headline": "Venezuelan security forces detain journalists from foreign news organisations",
+        "summary": "Venezuelans describe their fear of speaking out as 14 media workers are detained and police check people's social media.",
+        "url": "https://www.bbc.com/news/articles/cd6w4y0eq70o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 13:24:44",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "guardian-https://www.theguardian.com/world/2026/jan/06/iranian-security-forces-clash-protesters-tehran-grand-bazaar",
+        "source": "guardian",
+        "headline": "Iranian security forces clash with protesters at Tehran’s grand bazaar",
+        "summary": "<p>Nationwide protests continue to grow as rights groups accuse authorities of cracking down on demonstrators</p><p>Iranian security forces have clashed with protesters staging a sit-in at Tehran’s grand bazaar, firing teargas and expelling demonstrators as the nationwide protest movement continued to grow in its 10th day.</p><p>The violence on Tuesday at a location that carries historical symbolism as an activist hub during the country’s 1979 revolution comes as rights groups accuse authorities of cracking down on protesters.</p> <a href=\"https://www.theguardian.com/world/2026/jan/06/iranian-security-forces-clash-protesters-tehran-grand-bazaar\">Continue reading...</a>",
+        "url": "https://www.theguardian.com/world/2026/jan/06/iranian-security-forces-clash-protesters-tehran-grand-bazaar",
+        "published_at": "2026-01-06 17:04:04",
+        "bias_score": -0.5,
+        "embedding": null
+      },
+      {
+        "id": "mirror-https://www.mirror.co.uk/news/royals/prince-harrys-uk-security-review-36507018",
+        "source": "mirror",
+        "headline": "Prince Harry’s UK security review risks making Meghan Markle a 'target'",
+        "summary": "With the Duke of Sussex’s UK security entitlements under review, a royal expert believes it could put a target on Meghan Markle’s back if she were to return to her husband’s home country",
+        "url": "https://www.mirror.co.uk/news/royals/prince-harrys-uk-security-review-36507018",
+        "published_at": "2026-01-06 16:04:14",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "dailymail-https://www.dailymail.co.uk/news/article-15436519/Maduros-capture-Tren-Aragua-activate.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "source": "dailymail",
+        "headline": "Chilling warning that bloodthirsty Venezuelan migrant gangsters hiding in your city could be 'activated' after Maduro's capture",
+        "summary": "Despite going underground recently, bloodthirsty gangsters could return to prominence after Trump's audacious military operation.",
+        "url": "https://www.dailymail.co.uk/news/article-15436519/Maduros-capture-Tren-Aragua-activate.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "published_at": "2026-01-06 17:59:31",
+        "bias_score": 1.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-013",
+    "topic": "venezuela, verify, claims, examines",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/videos/cx2lpkw1g66o#1",
+        "source": "bbc",
+        "headline": "BBC Verify examines claims Venezuela 'stole' US oil",
+        "summary": "The US government has made it clear that getting access to Venezuelan oil is an important motivation for its actions in the country.",
+        "url": "https://www.bbc.com/news/videos/cx2lpkw1g66o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 12:58:07",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "dailymail-https://www.dailymail.co.uk/news/article-15438187/Brits-disapprove-Donald-Trumps-Venezuela-raid-poll-shows-US-President-slightly-popular-Keir-Starmer.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "source": "dailymail",
+        "headline": "Brits disapprove of Donald Trump's Venezuela raid, poll shows - but US President is slightly more popular than Keir Starmer",
+        "summary": "A YouGov poll found 51 per cent of Britons disapprove of the US capture of Venezuelan President Nicolas Maduro during a military operation.",
+        "url": "https://www.dailymail.co.uk/news/article-15438187/Brits-disapprove-Donald-Trumps-Venezuela-raid-poll-shows-US-President-slightly-popular-Keir-Starmer.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "published_at": "2026-01-06 15:16:55",
+        "bias_score": 1.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-014",
+    "topic": "across, venezuela, trump, operation",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/videos/c4gv7q1yl3yo#1",
+        "source": "bbc",
+        "headline": "Trump supporters across US react to Venezuela operation",
+        "summary": "Trump supporters react after US forces seized Venezuela’s Nicolas Maduro with some welcoming the move and others expressing caution about what it means going forward.",
+        "url": "https://www.bbc.com/news/videos/c4gv7q1yl3yo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 15:29:28",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "guardian-https://www.theguardian.com/commentisfree/2026/jan/06/donald-trump-venezuela-coup-us-president-caracas",
+        "source": "guardian",
+        "headline": "Why the surprise over Trump’s Venezuela coup? US presidents promise isolation – and deliver war | Simon Jenkins",
+        "summary": "<p>Last week’s events in Caracas come in a long line of American interventions. The White House has awesome power and is never shy of using it</p><p>It is starting to trickle out. Last week in Caracas was not an invasion, it was a putsch. It was the militarised kidnap of one ruler to aid his more amenable deputy into power. Since April last year, <a href=\"https://x.com/inside_nk/status/2007857634603573733\">according to reports</a>, vice-president and now interim president Delcy Rodríguez and her brother Jorge – the president of the Venezuelan national assembly – have been <a href=\"https://www.miamiherald.com/news/nation-world/world/americas/venezuela/article312516272.html\">dealing secretly with Washington</a>. This has reportedly been via that hotspot of informal diplomacy, Qatar.</p><p>We have yet to know the details. But the rumours are plausible that last week’s episode was staged to look outrageous, including Delcy Rodríguez’s <a href=\"https://www.theguardian.com/world/2026/jan/04/delcy-rodriguez-tightrope-venezuela-interim-leader\">initial condemnation</a> of it as atrocious. President Nicolás Maduro was handed over to the Americans swiftly and peacefully. The only slip was Trump <a href=\"https://www.theguardian.com/world/2026/jan/04/us-running-venezuela-now-seems-less-likely-but-second-intervention-possible\">describing Delcy</a> as “quite gracious” before she was hastily sworn into office soon after the raid. A more serious slip was <a href=\"https://www.theguardian.com/world/live/2026/jan/06/venezuela-live-updates-maduro-trump-us-attack-opposition-machado-return\">his dismissal</a> of the opposition leader, María Corina Machado, as lacking “the support within or the respect within the country”. She had championed <a href=\"https://thedialogue.org/expert/gonzalez-urrutia\">Edmundo González Urrutia</a>, probable winner of <a href=\"https://www.theguardian.com/world/article/2024/jul/29/venezuela-election-result-maduro-urrutia\">the rigged</a> 2024 Venezuelan election, for which she won the Nobel peace prize Trump so coveted. Why no mention of him from Trump?</p><p>Simon Jenkins is a Guardian columnist and the author of <a href=\"https://guardianbookshop.com/a-short-history-of-america-9780241747599/\">A Short History of America: From Tea Party to Trump</a></p> <a href=\"https://www.theguardian.com/commentisfree/2026/jan/06/donald-trump-venezuela-coup-us-president-caracas\">Continue reading...</a>",
+        "url": "https://www.theguardian.com/commentisfree/2026/jan/06/donald-trump-venezuela-coup-us-president-caracas",
+        "published_at": "2026-01-06 14:02:41",
+        "bias_score": -0.5,
+        "embedding": null
+      },
+      {
+        "id": "dailymail-https://www.dailymail.co.uk/news/article-15437757/Venezuela-Maduro-Monroe-Doctrine-oil.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "source": "dailymail",
+        "headline": "Venezuela could be just the first domino of Trump's 'Donroe Doctrine' as it's revealed he told oil exec to 'get ready' before ousting Maduro",
+        "summary": "The capture of Venezuelan leader Nicolas Maduro could be just the first step in an ambitious campaign as a new document lays out Trump's playbook to reshape the world order.",
+        "url": "https://www.dailymail.co.uk/news/article-15437757/Venezuela-Maduro-Monroe-Doctrine-oil.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "published_at": "2026-01-06 15:34:22",
+        "bias_score": 1.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-015",
+    "topic": "morally, action, right, venezuela",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/ckgnxdpv2p9o#1",
+        "source": "bbc",
+        "headline": "US action in Venezuela morally right, Badenoch says",
+        "summary": "The Conservative leader tells the BBC the military operation raises \"serious questions about the rules-based order\".",
+        "url": "https://www.bbc.com/news/articles/ckgnxdpv2p9o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 11:36:15",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "independent-b2895296",
+        "source": "independent",
+        "headline": "Trump was ‘morally right’ to attack Venezuela and seize Maduro, says Kemi Badenoch",
+        "summary": "<p>‘The legal certainty is not yet clear, morally I do think it was the right thing to do,’ Tory leader says </p>",
+        "url": "https://www.independent.co.uk/news/uk/politics/venezuela-trump-maduro-kemi-badenoch-conservatives-b2895296.html",
+        "published_at": "2026-01-06 13:40:49",
+        "bias_score": -0.5,
+        "embedding": null
+      },
+      {
+        "id": "dailymail-https://www.dailymail.co.uk/news/article-15437147/Protester-arrested-tv-interview-Trump-maduro-attack.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "source": "dailymail",
+        "headline": "Shocking moment woman is arrested during live TV interview after protesting Trump's Venezuela attack",
+        "summary": "Jessica Plichta, who had organized a protest against the Trump administration's capture of Venezuelan President Nicolas Maduro, was arrested on television.",
+        "url": "https://www.dailymail.co.uk/news/article-15437147/Protester-arrested-tv-interview-Trump-maduro-attack.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "published_at": "2026-01-06 13:26:01",
+        "bias_score": 1.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-016",
+    "topic": "punch, killed, single",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/clyzvrxyxnxo#2",
+        "source": "bbc",
+        "headline": "Why I now hug the man who killed my son with a single punch",
+        "summary": "Joan Scourfield joins forces with Jacob Dunne to highlight the benefits of restorative justice.",
+        "url": "https://www.bbc.com/news/articles/clyzvrxyxnxo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 06:00:59",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-017",
+    "topic": "taking, fantasy, football",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/cewjqxxy2jxo#2",
+        "source": "bbc",
+        "headline": "Is AI taking the fun out of fantasy football?",
+        "summary": "Some fans of FPL and other leagues are turning to chatbots and apps to get a leg up over other players.",
+        "url": "https://www.bbc.com/news/articles/cewjqxxy2jxo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 10:21:01",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "dailymail-https://www.dailymail.co.uk/news/article-15438985/Former-Manchester-United-Leeds-Scotland-footballer-Gordon-McQueen-told-family-heading-football-years-helped-prior-dementia-battle-inquest-hears.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "source": "dailymail",
+        "headline": "Former Manchester United, Leeds and Scotland footballer Gordon McQueen told family 'heading a football for all those years hasn't helped' prior to dementia battle, inquest hears",
+        "summary": "The towering former Scotland international defender was diagnosed with vascular dementia in 2021 and died two years later, aged 70.",
+        "url": "https://www.dailymail.co.uk/news/article-15438985/Former-Manchester-United-Leeds-Scotland-footballer-Gordon-McQueen-told-family-heading-football-years-helped-prior-dementia-battle-inquest-hears.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "published_at": "2026-01-06 17:56:18",
+        "bias_score": 1.0,
+        "embedding": null
+      },
+      {
+        "id": "gbnews-https://www.gbnews.com/news/maccabi-fan-ban-police-cover-up-islamist-threat",
+        "source": "gbnews",
+        "headline": "Fury at police chief's bid to COVER UP Islamist threat to Jewish football fans as Israelis blamed instead",
+        "summary": "<br /><p>West Midlands Police is under fire after a Home Affairs Select Committee scrutinised its chief constable over the decision to ban Maccabi Tel Aviv fans from attending their Europa League clash against Aston Villa.</p><p>In a testing appearance before MPs, the force’s most senior figures sought to justify the decision, which sparked political uproar.</p><h3></h3><br /><p>Sir Keir Starmer was among those to condemn the move, saying he was “angered by the decision” relating to the fixture, which took place on 6 November last year.</p><p>Assistant Chief Constable Mike O’Hara insisted the decision was “based on safety” and that “there was no conspiracy”.</p><h3></h3><br /><div class=\"trending-wrapper\">\n<div class=\"trending-header\">TRENDING</div>\n<div class=\"tabs\">\n<div class=\"tab active\">Stories</div>\n<div class=\"tab\">Videos</div>\n<div class=\"tab\">Your Say</div>\n</div>\n<div class=\"tab-content active\" id=\"stories\"></div>\n<div class=\"tab-content\" id=\"videos\"></div>\n<div class=\"tab-content\" id=\"your-say\"></div>\n</div><h3></h3><br /><p>New documents revealed concerns that local groups in Birmingham may have armed themselves against Jews attending the match.</p><p>In announcing their decision, West Midlands Police pointed to violent clashes during the 2024 Europa League match between Ajax and Maccabi Tel Aviv in Amsterdam.</p><p>Dutch police disputed information published in a report by the force detailing how it reached its decision.</p><p>Assistant Chief Constable O’Hara denied that West Midlands Police had focused solely on intelligence from their Dutch counterparts, saying there had been a “huge degree of consternation” within the local community about a potentially large presence of Maccabi fans.</p><h3></h3><br /><img alt=\"\" class=\"rm-shortcode\" id=\"5484e\" src=\"https://www.gbnews.com/media-library/image.png?id=62673527&amp;width=980\" /><h3></h3><br /><div class=\"embed-latest\"></div><h3></h3><br /><p>He said: “There was a lot of intelligence suggesting people would actively seek out Maccabi fans and pursue violence towards them.</p><p>“There was a range of options available. The particular challenge was that the Maccabi fans would target the community. This was all forming part of the heat of the situation.”</p><p>Tory MP and former Home Office special adviser Nick Timothy criticised the police, saying: “The mob said Israeli fans aren’t welcome, and the police chose appeasement — and we all know where that ends.”</p><p>He said senior officers were guilty of “lying” as they attempted to explain their actions and their failure to confront “extreme elements in the communities they are supposed to police”.</p><h3>LATEST DEVELOPMENTS</h3><br /><ul><li><a href=\"https://www.gbnews.com/news/video-west-midlands-police-say-fan-ban-was-to-protect-the-public-during-inquiry\" target=\"_self\">WATCH: West Midlands Police say Maccabi Tel Aviv fan ban was to ‘protect the public’ during inquiry</a></li><li><a href=\"https://www.gbnews.com/politics/labour-mocked-social-media-post-immigration-list-policies\" target=\"_self\">Labour mocked for 'UK turning a corner' message as small boats crisis ignored in list of policies</a></li><li><a href=\"https://www.gbnews.com/news/world/greenland-european-leaders-deliver-stark-warning-donald-trump\" target=\"_self\">European leaders deliver stark warning to Donald Trump over Greenland takeover threats</a></li></ul><h3></h3><br /><img alt=\"Keir Starmer was among those to criticise the decision to ban Maccabi fans\" class=\"rm-shortcode\" id=\"df829\" src=\"https://www.gbnews.com/media-library/keir-starmer-was-among-those-to-criticise-the-decision-to-ban-maccabi-fans.jpg?id=61877396&amp;width=980\" /><h3></h3><br /><p>The documents also show that the police assessment was amended late in the process to present a high risk to local people, while the risk to Maccabi fans was downgraded.</p><p>Dame Karen Bradley, the Conservative who chaired the committee, accused the police of “scraping” for justification to ban Israelis from attending the game.</p><p>Asked about the quality of the intelligence he had previously given the committee regarding Maccabi fan behaviour around their 2024 match with Ajax, West Midlands Police Chief Constable Craig Guildford said: “I do stand by what was said.</p><p>“It was said on the basis of the information given to us.”</p><h3></h3><br /><div class=\"embed-dontmiss\"></div><h3></h3><br /><img alt=\"Maccabi Tel Aviv fans were banned from attending the match against Aston Villa\" class=\"rm-shortcode\" id=\"66167\" src=\"https://www.gbnews.com/media-library/maccabi-tel-aviv-fans-were-banned-from-attending-the-match-against-aston-villa.jpg?id=62095426&amp;width=980\" /><p>He added: “The information and intelligence we received and documented was all reviewed. The mistake that was made, in relation to West Ham, involved one individual carrying out a single Google search because he could not find the reference.”</p><p>Cheshire Chief Constable Mark Roberts, head of the UK Football Policing Unit, said: “We normally plan for away fans and their risk supporters to seek disorder with rival fans. The difference here was a threat that some Maccabi fans might seek confrontation with the local community.</p><p>“There was chatter on social media, with evidence that some Maccabi fans — or people purporting to be them — were gloating about what had occurred, which was then being responded to. That was a distinguishing dynamic. This was a unique set of circumstances.”</p><p>Conservative Party leader Kemi Badenoch accused West Midlands Police of “capitulating to Islamists” before “collaborating with them to cover it up”.</p><h3></h3><br /><div class=\"embed-mostread\"></div><h3></h3><br /><p>She wrote on X: “They knew extremists were planning to attack Jews for going to a football match, and their response was to blame and remove Jewish people instead. They presented an inversion of reality and misled a Parliamentary Committee.</p><p>“We have had enough of this in Britain. The Chief Constable’s position is untenable.</p><p>“The British police serve the British public, not local sectarian interests.”</p><p>MPs heard that the force had information as early as 5 September last year indicating the Israeli visitors would be targeted with “violence”.</p><h3></h3><br /><p>Assistant Chief Constable O’Hara said: “We received a significant amount of intelligence suggesting people would actively seek out Maccabi Tel Aviv fans and pursue violence against them.</p><p>“There was a bubbling situation locally.</p><p>“We also had people online purporting to be Maccabi fans who were goading members of the local community, saying, ‘this is what you’re going to get’.</p><p>“All of this formed part of the heat of the situation and, based on that, commanders sought to make the right decision.”</p><h3></h3><br /><p><br /></p><p><br /></p><div id=\"our-standards-wrapper\">\n<p class=\"our-standards\">\n<strong>Our Standards:\n        <a href=\"https://www.gbnews.com/about-us/our-editorial-charter\">The GB News Editorial Charter</a>\n</strong>\n</p>\n</div>",
+        "url": "https://www.gbnews.com/news/maccabi-fan-ban-police-cover-up-islamist-threat",
+        "published_at": "2026-01-06 19:40:28",
+        "bias_score": 1.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-018",
+    "topic": "spread, majority, provinces, videos",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/cre28d2j2zxo#2",
+        "source": "bbc",
+        "headline": "Iran anti-government protests spread to majority of provinces, videos show",
+        "summary": "Videos show that unrest has spread to more than 50 towns and cities, including pro-government heartlands.",
+        "url": "https://www.bbc.com/news/articles/cre28d2j2zxo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 15:35:23",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "dailymail-https://www.dailymail.co.uk/news/article-15438927/Sudden-death-Republican-lawmaker-shaves-GOP-House-margin-two-votes.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "source": "dailymail",
+        "headline": "Sudden death of GOP lawmaker threatens Trump majority - as second Republican, 80, rushed to hospital",
+        "summary": "California Republican Congressman Doug LaMalfa has suddenly passed away at the age of 65, per statements issued by his Capitol Hill colleagues on Tuesday.",
+        "url": "https://www.dailymail.co.uk/news/article-15438927/Sudden-death-Republican-lawmaker-shaves-GOP-House-margin-two-votes.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "published_at": "2026-01-06 17:43:00",
+        "bias_score": 1.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-019",
+    "topic": "become, flight, american, great",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/c3wz6p64gzyo#2",
+        "source": "bbc",
+        "headline": "How Geese took flight to become 'Gen Z's first great American band'",
+        "summary": "The New Yorkers, who are fourth in the BBC's Sound of 2026, say they're 'still processing' their rise.",
+        "url": "https://www.bbc.com/news/articles/c3wz6p64gzyo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 06:59:13",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "dailymail-https://www.dailymail.co.uk/news/article-15437777/American-flag-set-alight-stamped-Downing-Street-Venezuela.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "source": "dailymail",
+        "headline": "American flag set alight and stamped on outside Downing Street as lefty protesters including Jeremy Corbyn rail against Trump's Venezuelan intervention chanted 'death to the USA'",
+        "summary": "The fire was lit by masked members of the Anti-Imperialist Front, one of a number of leftist groups which flocked to the rally last night.",
+        "url": "https://www.dailymail.co.uk/news/article-15437777/American-flag-set-alight-stamped-Downing-Street-Venezuela.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "published_at": "2026-01-06 15:29:25",
+        "bias_score": 1.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-020",
+    "topic": "there, nelson, child",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/c1m7r840gl0o#2",
+        "source": "bbc",
+        "headline": "I want to tell Jesy Nelson, there's hope, says mum of child with SMA",
+        "summary": "SMA is a progressive muscle-wasting disease that can cause death within two years if untreated.",
+        "url": "https://www.bbc.com/news/articles/c1m7r840gl0o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 16:48:36",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-021",
+    "topic": "greenland, trump",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/c74x4m71pmjo#2",
+        "source": "bbc",
+        "headline": "Why does Trump want Greenland?",
+        "summary": "The US president's repeated demands to control Greenland could threaten the Nato military alliance.",
+        "url": "https://www.bbc.com/news/articles/c74x4m71pmjo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 13:33:24",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "dailymail-https://www.dailymail.co.uk/news/article-15437239/Stephen-Miller-declares-Greenland-US.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "source": "dailymail",
+        "headline": "Stephen Miller declares Greenland should be part of US and 'nobody will fight' over country's future",
+        "summary": "Stephen Miller declared on CNN that the Trump administration's formal position is that Greenland should become part of the United States, insisting no country would fight Washington over it.",
+        "url": "https://www.dailymail.co.uk/news/article-15437239/Stephen-Miller-declares-Greenland-US.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "published_at": "2026-01-06 17:46:48",
+        "bias_score": 1.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-022",
+    "topic": "magical, india, farmers, flower",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/clyxln49760o#2",
+        "source": "bbc",
+        "headline": "The 'magical' blue flower changing farmers' fortunes in India",
+        "summary": "Indian farmers are turning to butterfly pea flower which is in demand for its bright blue colour.",
+        "url": "https://www.bbc.com/news/articles/clyxln49760o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 00:01:52",
+        "bias_score": 0.0,
+        "embedding": null
       }
     ]
   },
   {
     "story_id": "story-023",
-    "topic": "reaches, one-year, strike, sight",
+    "topic": "de-ice, windscreen, boiling, water",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/weather/videos/c36zx50pdxlo#3",
+        "source": "bbc",
+        "headline": "'Do not use boiling water': What’s the best way to de-ice your car windscreen?",
+        "summary": "Frosty mornings mean extra time needed to clear your windscreen",
+        "url": "https://www.bbc.com/weather/videos/c36zx50pdxlo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-05 14:59:04",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-024",
+    "topic": "still, during, should, weather",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/ckgk7zx7vzko#3",
+        "source": "bbc",
+        "headline": "Should I still walk my dog during cold weather?",
+        "summary": "Pets may need help to stay warm and safe when wintry conditions arrive.",
+        "url": "https://www.bbc.com/news/articles/ckgk7zx7vzko?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-04 05:26:07",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-025",
+    "topic": "weather, payments",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/c87470q4w21o#3",
+        "source": "bbc",
+        "headline": "What are cold weather payments and who can get them?",
+        "summary": "Some people in England, Wales and Northern Ireland can get help with heating costs during cold spells.",
+        "url": "https://www.bbc.com/news/articles/c87470q4w21o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 09:16:56",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "independent-b2893543",
+        "source": "independent",
+        "headline": "Cold weather payments triggered in over 400 postcodes – check if you’re eligible",
+        "summary": "<p>Over 600,000 households are in line for the one-off payment </p>",
+        "url": "https://www.independent.co.uk/news/uk/home-news/cold-weather-payment-postcode-checker-universal-credit-dwp-b2894137.html",
+        "published_at": "2026-01-06 15:35:47",
+        "bias_score": -0.5,
+        "embedding": null
+      },
+      {
+        "id": "metro-https://metro.co.uk/?p=26111025",
+        "source": "metro",
+        "headline": "London removing its severe weather plan is branded ‘life-threatening’",
+        "summary": "",
+        "url": "https://metro.co.uk/2026/01/06/london-removing-severe-weather-plan-branded-life-threatening-26111025/",
+        "published_at": "2026-01-06 16:05:48",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-026",
+    "topic": "tisdale, group, toxic, ashley",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/c4g09l286e2o#5",
+        "source": "bbc",
+        "headline": "Actress Ashley Tisdale says she left her 'toxic mom group'",
+        "summary": "The High School Musical actress says she left the group of new mothers after being \"brought to tears\".",
+        "url": "https://www.bbc.com/news/articles/c4g09l286e2o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 13:03:52",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-027",
+    "topic": "mayor, before, inspected, swiss",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/cdx4zxk1np0o#5",
+        "source": "bbc",
+        "headline": "Swiss ski bar not inspected for five years before deadly fire, mayor says",
+        "summary": "The New Year's Eve fire at a bar in Crans-Montana killed 40 people and injured 116.",
+        "url": "https://www.bbc.com/news/articles/cdx4zxk1np0o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 16:16:53",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "guardian-https://www.theguardian.com/world/2026/jan/06/no-safety-inspections-site-swiss-bar-fire-past-five-years-mayor-says",
+        "source": "guardian",
+        "headline": "No safety inspections at site of Swiss bar fire for past five years, mayor says",
+        "summary": "<p>Nicolas Féraud says he does not know why bar in Crans-Montana had not been inspected annually, as required by law</p><p>Authorities in Crans-Montana have said safety officers had not inspected the bar that <a href=\"https://www.theguardian.com/world/2026/jan/01/several-dead-and-injured-in-explosion-swiss-ski-resort-town-crans-montana-police-say\">caught fire in the Swiss ski resort</a> on New Year’s Eve, killing 40 mainly young partygoers and injuring more than 100, for the past five years.</p><p>“Periodic inspections were not conducted between 2020 and 2025. We bitterly regret this,” the mayor of the town, Nicolas Féraud, told a press conference in the town on Tuesday, five days after the disaster at Le Constellation bar.</p> <a href=\"https://www.theguardian.com/world/2026/jan/06/no-safety-inspections-site-swiss-bar-fire-past-five-years-mayor-says\">Continue reading...</a>",
+        "url": "https://www.theguardian.com/world/2026/jan/06/no-safety-inspections-site-swiss-bar-fire-past-five-years-mayor-says",
+        "published_at": "2026-01-06 10:38:20",
+        "bias_score": -0.5,
+        "embedding": null
+      },
+      {
+        "id": "dailymail-https://www.dailymail.co.uk/news/article-15438165/Swiss-mayor-admits-inferno-bar-not-inspected-FIVE-YEARS-issues-grovelling-apology.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "source": "dailymail",
+        "headline": "Swiss mayor admits inferno bar had not been inspected for FIVE YEARS and issues grovelling apology - as venue's 'secret entrance' is revealed",
+        "summary": "The mayor of Crans Montana has admitted that the party venue had not had any safety checks for five years.",
+        "url": "https://www.dailymail.co.uk/news/article-15438165/Swiss-mayor-admits-inferno-bar-not-inspected-FIVE-YEARS-issues-grovelling-apology.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "published_at": "2026-01-06 20:08:09",
+        "bias_score": 1.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-028",
+    "topic": "every, three, drivers, tests",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/c205nxy0p31o#5",
+        "source": "bbc",
+        "headline": "Drivers over 70 to face eye tests every three years",
+        "summary": "The move is part of the government's new road safety strategy, which plans to reform driving laws in Britain.",
+        "url": "https://www.bbc.com/news/articles/c205nxy0p31o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 17:03:10",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "dailymail-https://www.dailymail.co.uk/news/article-15436927/Elderly-drivers-age-70-sight-checked-three-years-law-new-plans.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "source": "dailymail",
+        "headline": "Elderly drivers over the age of 70 have to have their sight checked every three years by law under new plans",
+        "summary": "Motorists aged 70 and above can no longer self-report visual diseases to the Driver and Vehicle Licensing Agency ( DVLA) after coroners warned the system could be abused.",
+        "url": "https://www.dailymail.co.uk/news/article-15436927/Elderly-drivers-age-70-sight-checked-three-years-law-new-plans.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "published_at": "2026-01-06 11:10:13",
+        "bias_score": 1.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-029",
+    "topic": "horizon, scandal, parasite, fujitsu",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/cdxjnv1qzgxo#5",
+        "source": "bbc",
+        "headline": "Fujitsu 'not a parasite' over Horizon scandal",
+        "summary": "Fujitsu's European boss defended the firm as it continues to profit from government contracts.",
+        "url": "https://www.bbc.com/news/articles/cdxjnv1qzgxo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 17:56:44",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "guardian-https://www.theguardian.com/uk-news/2026/jan/06/fujitsu-boss-refusing-redress-figure-horizon-it-scandal-victims",
+        "source": "guardian",
+        "headline": "Fujitsu ‘not a parasite’, boss says while refusing to give redress figure for Horizon IT scandal victims",
+        "summary": "<p>Paul Patterson questioned by MPs as firm continues to make millions from UK government contracts</p><p>Fujitsu’s European boss has told MPs the company is “not a parasite”, after being criticised for continuing to make hundreds of millions of pounds from UK government contracts while refusing to give a compensation figure for victims of the Post Office Horizon IT scandal.</p><p>Two years ago Paul Patterson said Fujitsu had a <a href=\"https://www.theguardian.com/uk-news/2024/jan/16/fujitsu-admits-for-first-time-it-should-help-compensate-post-office-victims\">“moral obligation”</a> to pay financial redress to the victims of Horizon – admitting it had known the accounting IT system was faulty since the 1990s – with the government estimating the final cost to taxpayers of payouts to be £1.8bn.</p> <a href=\"https://www.theguardian.com/uk-news/2026/jan/06/fujitsu-boss-refusing-redress-figure-horizon-it-scandal-victims\">Continue reading...</a>",
+        "url": "https://www.theguardian.com/uk-news/2026/jan/06/fujitsu-boss-refusing-redress-figure-horizon-it-scandal-victims",
+        "published_at": "2026-01-06 17:37:32",
+        "bias_score": -0.5,
+        "embedding": null
+      },
+      {
+        "id": "sky-https://news.sky.com/story/fujitsu-boss-rejects-mps-claim-firm-is-a-parasite-on-the-british-state-13491263",
+        "source": "sky",
+        "headline": "Fujitsu boss rejects MP's claim firm is 'a parasite on the British state'",
+        "summary": "Fujitsu's European boss has denied that the company is \"a parasite on the British state\" after MPs challenged it over its position on Post Office scandal compensation.",
+        "url": "https://news.sky.com/story/fujitsu-boss-rejects-mps-claim-firm-is-a-parasite-on-the-british-state-13491263",
+        "published_at": "2026-01-06 18:12:00",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "independent-b2895559",
+        "source": "independent",
+        "headline": "Fujitsu refuses to say how much money it will pay towards £1.8bn Post Office scandal compensation bill",
+        "summary": "<p>Former prime minister Rishi Sunak described the Horizon scandal as ‘one of the greatest miscarriages of justice in our nation’s history’</p>",
+        "url": "https://www.independent.co.uk/news/uk/politics/fujitsu-post-office-subpostmaster-compensation-b2895559.html",
+        "published_at": "2026-01-06 19:47:44",
+        "bias_score": -0.5,
+        "embedding": null
+      },
+      {
+        "id": "mirror-https://www.mirror.co.uk/news/uk-news/post-office-horizon-scandal-victims-36507921",
+        "source": "mirror",
+        "headline": "Post Office Horizon scandal victim's fight after husband's same conviction quashed",
+        "summary": "Wife of Post Office IT scandal victim forced to endure longer wait to have conviction quashed - as software giant blamed admits it hasn't set a penny aside for compensation",
+        "url": "https://www.mirror.co.uk/news/uk-news/post-office-horizon-scandal-victims-36507921",
+        "published_at": "2026-01-06 19:23:05",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "dailymail-https://www.dailymail.co.uk/news/article-15438679/georgia-pandemic-fraud-benefits-karen-bennett.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "source": "dailymail",
+        "headline": "New state embroiled in Democrat fraud scandal as lawmaker becomes second charged with swindling benefits",
+        "summary": "Two representatives in a southern state have been accused of lying on federal documents to receive benefits during the pandemic.",
+        "url": "https://www.dailymail.co.uk/news/article-15438679/georgia-pandemic-fraud-benefits-karen-bennett.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "published_at": "2026-01-06 19:23:28",
+        "bias_score": 1.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-030",
+    "topic": "security, powerful, ukraine, service",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/news/articles/cpv7myg2nw4o#5",
+        "source": "bbc",
+        "headline": "Zelensky replaces Ukraine's powerful security service chief",
+        "summary": "The Ukrainian president has come under heavy criticism for his reshuffling of one the country's most successful security agencies.",
+        "url": "https://www.bbc.com/news/articles/cpv7myg2nw4o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 14:26:46",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "metro-https://metro.co.uk/?p=26114953",
+        "source": "metro",
+        "headline": "British soldiers will land in Ukraine to monitor any ceasefire deal with Russia",
+        "summary": "Prime Minister Sir Keir Starmer said 'military hubs' will be set up across Ukraine once a peace deal has been reached.",
+        "url": "https://metro.co.uk/2026/01/06/british-soldiers-will-land-ukraine-monitor-ceasefire-deal-russia-26114953/",
+        "published_at": "2026-01-06 19:42:27",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "dailymail-https://www.dailymail.co.uk/news/article-15439553/Civil-service-hires-criminal-records-scheme-convicts.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "source": "dailymail",
+        "headline": "Civil service hires 166 people with criminal records as part of scheme to give convicts a second chance",
+        "summary": "The recruitment programme is open to criminals found guilty of knife offences, assault, theft and shoplifting and has advertised 293 positions since it was launched in 2021.",
+        "url": "https://www.dailymail.co.uk/news/article-15439553/Civil-service-hires-criminal-records-scheme-convicts.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "published_at": "2026-01-06 19:52:58",
+        "bias_score": 1.0,
+        "embedding": null
+      },
+      {
+        "id": "gbnews-https://www.gbnews.com/news/world/video-nigel-farage-says-britain-and-france-desperately-seeking-relevance-as-us-pushes-ukraine-peace-deal",
+        "source": "gbnews",
+        "headline": "WATCH: Nigel Farage says Britain and France ‘desperately seeking relevance’ as US pushes Ukraine peace deal",
+        "summary": "<br /><p class=\"\">Nigel Farage said two rival press conferences in Paris exposed a growing divide between Europe and the United States over Ukraine.</p><p>He claimed Britain and France are prepared to put “boots on the ground” after a peace deal, while Germany offered only vague backing and other European nations were absent.</p><p>Nigel argued the real power lay elsewhere, with US figures focused on brokering peace, a process he said Donald Trump remains “absolutely committed” to despite Vladimir Putin’s reluctance.</p><p><strong><u>WATCH THE CLIP ABOVE FOR MORE </u></strong></p>",
+        "url": "https://www.gbnews.com/news/world/video-nigel-farage-says-britain-and-france-desperately-seeking-relevance-as-us-pushes-ukraine-peace-deal",
+        "published_at": "2026-01-06 19:41:37",
+        "bias_score": 1.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-031",
+    "topic": "one-year, sight, reaches, strike",
     "articles": [
       {
         "id": "bbc-https://www.bbc.com/news/articles/c1509kklkzvo#5",
@@ -488,24 +1056,8 @@
     ]
   },
   {
-    "story_id": "story-024",
-    "topic": "local, failing, treatment, detoxed",
-    "articles": [
-      {
-        "id": "bbc-https://www.bbc.com/news/articles/cewjz55lvqlo#5",
-        "source": "bbc",
-        "headline": "Woman detoxed alone in B&B after failing to access local treatment",
-        "summary": "Katrina McGibbon developed alcohol and drug problems in her 30s, but felt her recovery was impeded by the lack of a local, health-service run rehabilitation unit.",
-        "url": "https://www.bbc.com/news/articles/cewjz55lvqlo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-01-06 00:01:05",
-        "bias_score": 0.0,
-        "embedding": null
-      }
-    ]
-  },
-  {
-    "story_id": "story-025",
-    "topic": "ministerial, scottish, breached, secretary",
+    "story_id": "story-032",
+    "topic": "breached, scottish, found, secretary",
     "articles": [
       {
         "id": "bbc-https://www.bbc.com/news/articles/c8rm5l3y3m6o#5",
@@ -518,67 +1070,29 @@
         "embedding": null
       },
       {
-        "id": "sky-https://news.sky.com/story/scotlands-justice-secretary-angela-constance-unintentionally-broke-ministerial-code-investigation-finds-13491145",
-        "source": "sky",
-        "headline": "Scotland's justice secretary 'unintentionally' breached ministerial code, investigation finds",
-        "summary": "Scotland's justice secretary \"unintentionally\" breached two provisions of the ministerial code, an independent investigation into her conduct has found.",
-        "url": "https://news.sky.com/story/scotlands-justice-secretary-angela-constance-unintentionally-broke-ministerial-code-investigation-finds-13491145",
-        "published_at": "2026-01-06 13:26:00",
+        "id": "mirror-https://www.mirror.co.uk/news/uk-news/m25-killer-victims-girlfriend-still-36507491",
+        "source": "mirror",
+        "headline": "M25 killer victim's girlfriend still lives in fear as cop who brought justice dies",
+        "summary": "Former Detective Supt Nick Biddiss has passed away aged 79 while Danielle Cable continues to live in witness protection after bravely giving evidence against Kenneth Noye",
+        "url": "https://www.mirror.co.uk/news/uk-news/m25-killer-victims-girlfriend-still-36507491",
+        "published_at": "2026-01-06 18:30:55",
         "bias_score": 0.0,
         "embedding": null
-      }
-    ]
-  },
-  {
-    "story_id": "story-026",
-    "topic": "cement, ukraine, security, macron",
-    "articles": [
+      },
       {
-        "id": "bbc-https://www.bbc.com/news/articles/c74vx4n003xo#5",
-        "source": "bbc",
-        "headline": "Macron hosts Ukraine and allies to try to cement security guarantees",
-        "summary": "The talks are held as Russia continues attacking Ukraine's energy sector and under the shadow of US threats to annex Greenland.",
-        "url": "https://www.bbc.com/news/articles/c74vx4n003xo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-01-06 10:59:51",
-        "bias_score": 0.0,
+        "id": "dailymail-https://www.dailymail.co.uk/news/article-15437223/Ryan-bound-tape-killed-father-brother-westernised-coward-drowned-daughter-stream-fled-Syria-face-justice.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "source": "dailymail",
+        "headline": "Ryan was bound with tape and killed by her father and brother for being too westernised. Will the coward who drowned his own daughter in a stream then fled to Syria ever face justice?",
+        "summary": "When the 15-year-old was duly granted asylum there, he, his wife and the rest of the family successfully applied to join him. And the warm welcome from the Dutch authorities did not end there.",
+        "url": "https://www.dailymail.co.uk/news/article-15437223/Ryan-bound-tape-killed-father-brother-westernised-coward-drowned-daughter-stream-fled-Syria-face-justice.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "published_at": "2026-01-06 07:53:16",
+        "bias_score": 1.0,
         "embedding": null
       }
     ]
   },
   {
-    "story_id": "story-027",
-    "topic": "menopause, online, hospital, prostates",
-    "articles": [
-      {
-        "id": "bbc-https://www.bbc.com/news/articles/c62w3wr92npo#5",
-        "source": "bbc",
-        "headline": "New NHS online hospital to focus on menopause and prostates",
-        "summary": "NHS Online due to launch in England next year will provide eye, prostate and menopause care.",
-        "url": "https://www.bbc.com/news/articles/c62w3wr92npo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-01-06 08:23:32",
-        "bias_score": 0.0,
-        "embedding": null
-      }
-    ]
-  },
-  {
-    "story_id": "story-028",
-    "topic": "france, women, drugging, self-proclaimed",
-    "articles": [
-      {
-        "id": "bbc-https://www.bbc.com/news/articles/c5y5wylpweqo#5",
-        "source": "bbc",
-        "headline": "Self-proclaimed hypnotherapist on trial in France for drugging and raping women",
-        "summary": "Cyril Zattara is charged with raping 14 women over a decade, as well as secretly filming others.",
-        "url": "https://www.bbc.com/news/articles/c5y5wylpweqo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-01-06 12:27:43",
-        "bias_score": 0.0,
-        "embedding": null
-      }
-    ]
-  },
-  {
-    "story_id": "story-029",
+    "story_id": "story-033",
     "topic": "",
     "articles": [
       {
@@ -594,8 +1108,8 @@
     ]
   },
   {
-    "story_id": "story-030",
-    "topic": "trump, captures, venezuela, strikes",
+    "story_id": "story-034",
+    "topic": "strikes, captures, venezuela, trump",
     "articles": [
       {
         "id": "bbc-https://www.bbc.co.uk/sounds/play/p0mrykq0#7",
@@ -606,22 +1120,12 @@
         "published_at": "2026-01-03 20:53:00",
         "bias_score": 0.0,
         "embedding": null
-      },
-      {
-        "id": "guardian-https://www.theguardian.com/world/2026/jan/05/trump-lawless-actions-in-venezuela-demand-a-resolute-response",
-        "source": "guardian",
-        "headline": "Trump’s lawless actions in Venezuela demand a resolute response | Letters",
-        "summary": "<p>International law cannot be selective, writes <strong>Hannah Walker</strong>, while <strong>Celia Cashman</strong> calls for an alliance to challenge to US actions in Venezuela, and <strong>Charlie Owen</strong> for clarity of language</p><p>Donald Trump’s own description of US actions in Venezuela – that it will “run” the country, remaining until Washington decides a political transition has occurred, and installing US oil companies to control production – outlines conduct that is plainly illegal under international law and sets a dangerous precedent (<a href=\"https://www.theguardian.com/world/2026/jan/04/us-running-venezuela-now-seems-less-likely-but-second-intervention-possible\">Donald Trump warns of ‘big price to pay’ if Caracas fails to toe line, 4 January</a>).</p><p>The UN charter prohibits the use or threat of force against another state, except in self-defence or with security council authorisation. Neither applies here. However illegitimate a government may be, regime change by invasion, occupation or foreign administration is unlawful. That rule exists precisely to prevent powerful states imposing political outcomes by force.</p> <a href=\"https://www.theguardian.com/world/2026/jan/05/trump-lawless-actions-in-venezuela-demand-a-resolute-response\">Continue reading...</a>",
-        "url": "https://www.theguardian.com/world/2026/jan/05/trump-lawless-actions-in-venezuela-demand-a-resolute-response",
-        "published_at": "2026-01-05 17:55:05",
-        "bias_score": -0.5,
-        "embedding": null
       }
     ]
   },
   {
-    "story_id": "story-031",
-    "topic": "caesar, julius, compared, trump",
+    "story_id": "story-035",
+    "topic": "trump, compared, caesar, julius",
     "articles": [
       {
         "id": "bbc-https://www.bbc.co.uk/sounds/play/p0mpbrwl#7",
@@ -634,19 +1138,55 @@
         "embedding": null
       },
       {
-        "id": "mirror-https://www.mirror.co.uk/news/politics/donald-trumps-unhinged-latest-still-36506763",
+        "id": "guardian-https://www.theguardian.com/commentisfree/picture/2026/jan/06/ben-jennings-donald-trump-attitude-international-law-cartoon",
+        "source": "guardian",
+        "headline": "Ben Jennings on Donald Trump’s attitude to international law – cartoon",
+        "summary": "<a href=\"https://www.theguardian.com/commentisfree/picture/2026/jan/06/ben-jennings-donald-trump-attitude-international-law-cartoon\">Continue reading...</a>",
+        "url": "https://www.theguardian.com/commentisfree/picture/2026/jan/06/ben-jennings-donald-trump-attitude-international-law-cartoon",
+        "published_at": "2026-01-06 18:02:10",
+        "bias_score": -0.5,
+        "embedding": null
+      },
+      {
+        "id": "dailymail-https://www.dailymail.co.uk/news/article-15438321/Turkish-woman-55-files-bizarre-paternity-lawsuit-claiming-Donald-Trumps-illegitimate-daughter.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "source": "dailymail",
+        "headline": "Turkish woman, 55, files bizarre paternity lawsuit after claiming to be Donald Trump's illegitimate daughter",
+        "summary": "The claimant, Necla Ozmen, 55, lives in Ankara, the capital of Turkey, and is reported to have lodged the case at the Ankara 27th Family Court on September 25.",
+        "url": "https://www.dailymail.co.uk/news/article-15438321/Turkish-woman-55-files-bizarre-paternity-lawsuit-claiming-Donald-Trumps-illegitimate-daughter.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "published_at": "2026-01-06 16:36:31",
+        "bias_score": 1.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-036",
+    "topic": "breaks, barriers, rosenior, moment",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/sport/football/articles/c78e5nn9g8jo#9",
+        "source": "bbc",
+        "headline": "'A moving moment' as Rosenior breaks barriers",
+        "summary": "Liam Rosenior's appointment as Chelsea manager is a \"massive moment\" for representation in the Premier League.",
+        "url": "https://www.bbc.com/sport/football/articles/c78e5nn9g8jo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 20:05:51",
+        "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "mirror-https://www.mirror.co.uk/sport/football/news/chelsea-liam-rosenior-enzo-maresca-36507464",
         "source": "mirror",
-        "headline": "Donald Trump's unhinged latest as he floats cancelling US elections on anniversary of January 6th",
-        "summary": "It's five years since Donald Trump's supporters mounted an attempted coup - and people are still, for some reason, surprised that he doesn't care about playing by the rules. Here's a roundup of the unhinged last 24 hours in Trump world",
-        "url": "https://www.mirror.co.uk/news/politics/donald-trumps-unhinged-latest-still-36506763",
-        "published_at": "2026-01-06 15:05:19",
+        "headline": "Inside Chelsea's decision to hire Liam Rosenior as six big reasons come to light",
+        "summary": "Chelsea have appointed Liam Rosenior as their new head coach on a five-and-a-half year deal following Enzo Maresca's departure on New Year's Day",
+        "url": "https://www.mirror.co.uk/sport/football/news/chelsea-liam-rosenior-enzo-maresca-36507464",
+        "published_at": "2026-01-06 16:48:30",
         "bias_score": 0.0,
         "embedding": null
       }
     ]
   },
   {
-    "story_id": "story-032",
+    "story_id": "story-037",
     "topic": "endings, another, sydney",
     "articles": [
       {
@@ -658,106 +1198,64 @@
         "published_at": "2026-01-06 09:00:00",
         "bias_score": 0.0,
         "embedding": null
+      },
+      {
+        "id": "dailymail-https://www.dailymail.co.uk/news/article-15438215/Rachel-Reeves-blamed-crashing-Claires-chain-blocks-business-rates-bailout-save-pubs-despite-PMs-hints-U-turn.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "source": "dailymail",
+        "headline": "Rachel Reeves is blamed for crashing Claire's chain as she 'blocks business rates bailout to save pubs' despite PM's hints at another U-turn",
+        "summary": "Fingers have been pointed at Rachel Reeves' policies after Modella Capital announced that the chain and the Original Factory Shop are being put into administration.",
+        "url": "https://www.dailymail.co.uk/news/article-15438215/Rachel-Reeves-blamed-crashing-Claires-chain-blocks-business-rates-bailout-save-pubs-despite-PMs-hints-U-turn.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "published_at": "2026-01-06 14:12:48",
+        "bias_score": 1.0,
+        "embedding": null
       }
     ]
   },
   {
-    "story_id": "story-033",
-    "topic": "rosenior, turned, chelsea, innovator",
+    "story_id": "story-038",
+    "topic": "talks, caretaker",
     "articles": [
       {
-        "id": "bbc-https://www.bbc.com/sport/football/articles/c5y5gn3130lo#9",
+        "id": "bbc-https://www.bbc.com/sport/football/articles/c931qgk3xgqo#9",
         "source": "bbc",
-        "headline": "Why Chelsea have turned to 'innovator' Rosenior",
-        "summary": "After Chelsea give Liam Rosenior his first Premier League managerial job, BBC Sport looks at why they have appointed him.",
-        "url": "https://www.bbc.com/sport/football/articles/c5y5gn3130lo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-01-06 12:11:19",
+        "headline": "Man Utd hold talks with trio over caretaker role",
+        "summary": "Manchester United hold talks with former players Darren Fletcher, Michael Carrick and Ole Gunnar Solskjaer about becoming the club's caretaker manager.",
+        "url": "https://www.bbc.com/sport/football/articles/c931qgk3xgqo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 17:12:54",
+        "bias_score": 0.0,
+        "embedding": null
+      }
+    ]
+  },
+  {
+    "story_id": "story-039",
+    "topic": "medical, pending, semenyo",
+    "articles": [
+      {
+        "id": "bbc-https://www.bbc.com/sport/football/articles/c8j389dd211o#9",
+        "source": "bbc",
+        "headline": "Semenyo to Man City deal done pending medical",
+        "summary": "Bournemouth winger Antoine Semenyo is set to have a medical after his side's game against Tottenham on Wednesday before he makes a move to Manchester City.",
+        "url": "https://www.bbc.com/sport/football/articles/c8j389dd211o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-01-06 18:22:02",
         "bias_score": 0.0,
         "embedding": null
       },
       {
-        "id": "guardian-https://www.theguardian.com/football/2026/jan/06/liam-rosenior-chelsea-strasbourg-football-daily-newsletter",
+        "id": "guardian-https://www.theguardian.com/football/2026/jan/06/manchester-city-ruben-dias-injury-out-for-up-to-six-weeks",
         "source": "guardian",
-        "headline": "Football Daily | Rosenior to Chelsea: ‘collaboration’ turns the Strasbourg air blue",
-        "summary": "<p><a href=\"https://www.theguardian.com/info/2022/nov/14/football-daily-email-sign-up\"><strong>Sign up now! Sign up now! Sign up now? Sign up now!</strong></a></p><p>While Football Daily spent most of New Year’s Day shivering, sweating and staring at hallucinatory rodents while questioning the wisdom of embarking on our first Dry January since 1989, it didn’t escape our blurred vision that Chelsea chose to ring in 2026 by firing Enzo Maresca. While he may have grown up the son of a humble Italian fisherman, the head coach had gotten a little too big for his waders, eventually being tossed into an ocean of opaque criticism he had levelled at unspecified members of the club hierarchy. Like a frail old man bobbing around the Tyrrhenian Sea while trying to reel in a 500lb bluefin tuna with a spool of dental floss, Maresca had picked a battle he was always going to lose – and on Tuesday Chelsea unveiled the Italian’s replacement.</p><p>So Chelsea are so confident that Liam Rosenior is the answer that they have given him a contract until 2032. Odds on him still being there in six years’ time? There’s more chance of Accrington Stanley winning the FA Cup (and they got knocked out in the first round). Are football club owners mad or just desperate?” – John Myles.</p><p>It’s quite sad to see Thomas Frank under increasing pressure at Spurs (for not solving all the problems that have dogged them for the last 40 years at a club that finished 17th last season, one place above relegation). Still, the one thing that should help him in this challenging period is that there isn’t anyone available with extensive experience of being an interim manager at Spurs. <a href=\"https://www.theguardian.com/football/2026/jan/06/west-brom-sack-ryan-mason-as-head-coach\" title=\"https://www.theguardian.com/football/2026/jan/06/west-brom-sack-ryan-mason-as-head-coach\">Oh</a>. Meanwhile, <a href=\"https://www.theguardian.com/football/2026/jan/05/celtics-nancy-catastrophe-is-another-indicator-of-a-club-embroiled-in-turmoil\" title=\"https://www.theguardian.com/football/2026/jan/05/celtics-nancy-catastrophe-is-another-indicator-of-a-club-embroiled-in-turmoil\">Martin O’Neill returning as Celtic manager</a> (now they don’t have to play Hearts again obviously), after spending only 37 days as interim and yet somehow outlasting the subsequent full-time manager, is both utterly predictable and yet simultaneously farcical. The skeleton of Jock Stein must be roaming the Scottish countryside in search of a pair of eyeballs to roll …” – Noble Francis.</p><p>As we emerge into the sunlit uplands of 2026, can any of us honestly say that we had a <a href=\"https://www.theguardian.com/football/2026/jan/03/wolves-west-ham-premier-league-match-report\">3-0 Wolves win</a>, <a href=\"https://www.theguardian.com/football/2026/jan/01/enzo-maresca-leaves-chelsea-breakdown-relations\">Chelsea</a>, <a href=\"https://www.theguardian.com/football/2026/jan/05/wilfried-nancy-sacked-by-celtic-after-eight-matches-and-33-days\">Celtic</a> and <a href=\"https://www.theguardian.com/football/2026/jan/05/ruben-amorim-sacked-by-manchester-united-transfers-power-struggle\">Manchester United</a> managerial exits, plus the <a href=\"https://www.theguardian.com/us-news/2026/jan/05/maduro-pleads-not-guilty\">audacious midnight capturing</a> of a sitting South American president by the winner of Fifa’s peace prize on our festive bingo cards? Thought not. Happy new year! We’re off to a flyer!” – Allastair McGillivray.</p><p><em><strong>This is an extract from our daily football email … Football Daily. To get the full version,<a href=\"https://preview.gutools.co.uk/info/2016/jan/05/the-fiver-email-sign-up\"> </a><a href=\"https://www.theguardian.com/info/2022/nov/14/football-daily-email-sign-up\">just visit this page and follow the instructions</a>.</strong></em></p> <a href=\"https://www.theguardian.com/football/2026/jan/06/liam-rosenior-chelsea-strasbourg-football-daily-newsletter\">Continue reading...</a>",
-        "url": "https://www.theguardian.com/football/2026/jan/06/liam-rosenior-chelsea-strasbourg-football-daily-newsletter",
-        "published_at": "2026-01-06 15:38:05",
-        "bias_score": -0.5,
-        "embedding": null
-      },
-      {
-        "id": "sky-https://news.sky.com/story/chelseas-new-boss-liam-rosenior-convicted-of-speeding-13491065",
-        "source": "sky",
-        "headline": "Chelsea's new boss Liam Rosenior convicted of speeding",
-        "summary": "New Chelsea boss Liam Rosenior has been convicted of speeding after fog delayed his flight back to the UK, where he was due to complete a speed awareness course.",
-        "url": "https://news.sky.com/story/chelseas-new-boss-liam-rosenior-convicted-of-speeding-13491065",
-        "published_at": "2026-01-06 10:09:00",
-        "bias_score": 0.0,
-        "embedding": null
-      }
-    ]
-  },
-  {
-    "story_id": "story-034",
-    "topic": "blow-up, brings, wilcox, amorim",
-    "articles": [
-      {
-        "id": "bbc-https://www.bbc.com/sport/football/articles/cedw8qq9l7po#9",
-        "source": "bbc",
-        "headline": "Amorim 'blow-up' brings Wilcox into the spotlight",
-        "summary": "Who is Manchester United's director of football Jason Wilcox and how did he become one of the most powerful figures in football?",
-        "url": "https://www.bbc.com/sport/football/articles/cedw8qq9l7po?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-01-06 13:10:31",
-        "bias_score": 0.0,
-        "embedding": null
-      }
-    ]
-  },
-  {
-    "story_id": "story-035",
-    "topic": "ashes, towards, england, final",
-    "articles": [
-      {
-        "id": "bbc-https://www.bbc.com/sport/cricket/articles/cwy13zw1pz1o#9",
-        "source": "bbc",
-        "headline": "Smith and Head push England towards final Ashes loss",
-        "summary": "Steve Smith's ruthless unbeaten century and Travis Head’s majestic 163 on day three put Australia in total control of the fifth Ashes Test against England.",
-        "url": "https://www.bbc.com/sport/cricket/articles/cwy13zw1pz1o?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-01-06 07:06:52",
-        "bias_score": 0.0,
-        "embedding": null
-      },
-      {
-        "id": "guardian-https://www.theguardian.com/sport/2026/jan/06/conscript-matt-potts-england-paratrooper-fighting-lonely-ashes-war-sydney-cricket",
-        "source": "guardian",
-        "headline": "Conscript Potts is England’s paratrooper fighting a lonely Ashes war in Sydney | Barney Ronay",
-        "summary": "<p>While England’s batting always gets to hog the limelight, this tour has also been lost in the bowling fade-outs</p><p>Forty-five minutes into a quietly overcast morning at the Sydney Cricket Ground, Matt Potts came into the England attack from the Randwick End, and immediately began running through his variations.</p><p>His first ball was wide and smashed through cover by Travis Head. His second ball was both short and wide and hacked over gully by Travis Head. His third ball was short and straight and smashed past midwicket by Travis Head. His fourth ball was defended with a show of furrowed caution, to loud, mocking cheers from a crowd that had begun to tuck into the day. Welcome to the treadmill, Pottsy. And yes, it’s always like this around here.</p> <a href=\"https://www.theguardian.com/sport/2026/jan/06/conscript-matt-potts-england-paratrooper-fighting-lonely-ashes-war-sydney-cricket\">Continue reading...</a>",
-        "url": "https://www.theguardian.com/sport/2026/jan/06/conscript-matt-potts-england-paratrooper-fighting-lonely-ashes-war-sydney-cricket",
-        "published_at": "2026-01-06 09:39:33",
+        "headline": "Manchester City lose Dias for up to six weeks but book in Semenyo medical",
+        "summary": "<ul><li><p>Bournemouth’s Semenyo due for medical on Thursday </p></li><li><p>Academy graduate Alleyne recalled amid injury crisis</p></li></ul><p>Manchester City will be without Rúben Dias for up to six weeks with a hamstring injury, exacerbating Pep Guardiola’s defensive injury crisis. The shortage of centre-backs could force the club into the transfer market, with the Crystal Palace captain, <a href=\"https://www.theguardian.com/football/2026/jan/05/manchester-city-weigh-up-move-for-palaces-guehi-after-injuries-to-gvardiol-and-dias\">Marc Guéhi, of interest</a>.</p><p>City are contemplating a bid for Guéhi and are close to completing <a href=\"https://www.theguardian.com/football/2025/dec/30/antoine-semenyo-move-talks-manchester-city-bournemouth\">a move for the forward Antoine Semenyo</a>, who is due for a medical on Thursday after playing a final game for Bournemouth on Wednesday at home against Tottenham. City have agreed to pay Semenyo’s almost £65m release clause.</p> <a href=\"https://www.theguardian.com/football/2026/jan/06/manchester-city-ruben-dias-injury-out-for-up-to-six-weeks\">Continue reading...</a>",
+        "url": "https://www.theguardian.com/football/2026/jan/06/manchester-city-ruben-dias-injury-out-for-up-to-six-weeks",
+        "published_at": "2026-01-06 17:55:00",
         "bias_score": -0.5,
         "embedding": null
       }
     ]
   },
   {
-    "story_id": "story-036",
-    "topic": "signings, celtic, neill, going",
-    "articles": [
-      {
-        "id": "bbc-https://www.bbc.com/sport/football/articles/c1m7rmjdx4zo#9",
-        "source": "bbc",
-        "headline": "Celtic 'going all out' for signings - O'Neill",
-        "summary": "Returning manager Martin O'Neill says Celtic will go \"all out\" to sign players in January.",
-        "url": "https://www.bbc.com/sport/football/articles/c1m7rmjdx4zo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-01-06 11:50:52",
-        "bias_score": 0.0,
-        "embedding": null
-      }
-    ]
-  },
-  {
-    "story_id": "story-037",
-    "topic": "australia, three, england, centuries",
+    "story_id": "story-040",
+    "topic": "smith, punish, england, three",
     "articles": [
       {
         "id": "bbc-https://www.bbc.com/sport/cricket/videos/cj4l9r24zpxo#9",
@@ -767,6 +1265,16 @@
         "url": "https://www.bbc.com/sport/cricket/videos/cj4l9r24zpxo?at_medium=RSS&at_campaign=rss",
         "published_at": "2026-01-06 08:05:20",
         "bias_score": 0.0,
+        "embedding": null
+      },
+      {
+        "id": "dailymail-https://www.dailymail.co.uk/news/article-15437527/Australia-officially-hottest-place-world.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "source": "dailymail",
+        "headline": "Australia is officially the hottest place in the world - and it's about to get even HOTTER!",
+        "summary": "Australia has officially recorded the hottest temperatures in the world as sweltering humidity grips the nation.",
+        "url": "https://www.dailymail.co.uk/news/article-15437527/Australia-officially-hottest-place-world.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "published_at": "2026-01-06 18:14:04",
+        "bias_score": 1.0,
         "embedding": null
       }
     ]

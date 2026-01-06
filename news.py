@@ -7,7 +7,7 @@ from typing import List, Dict
 import feedparser
 
 from models import Article, Story
-from config import RSS_FEEDS, SOURCE_MIN_SHARED
+from config import RSS_FEEDS, SOURCE_MIN_SHARED, SOURCE_BIAS
 
 # ========================
 # Config
@@ -29,23 +29,6 @@ GENERIC_WORDS = {
     "government", "uk", "us", "britain",
     "attack", "raid", "response", "warning",
     "man", "woman", "people", "police"
-}
-
-SOURCE_BIAS = {
-    # UK
-    "bbc": 0.0,
-    "guardian": -0.5,
-    "independent": -0.5,
-    "telegraph": 0.5,
-    "times": 0.5,
-    "dailymail": 1.0,
-    "metro": 0.0,
-    "standard": 0.0,
-    "sky": 0.0,
-
-    # International (safe defaults)
-    "reuters": 0.0,
-    "ap": 0.0,
 }
 # ========================
 # Orchestration
