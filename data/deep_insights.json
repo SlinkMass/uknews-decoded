@@ -1,0 +1,522 @@
+[
+  {
+    "story_id": "story-001",
+    "topic": "Who was Renee Nicole Good, the woman killed by ICE?",
+    "articles": [
+      {
+        "source": "bbc",
+        "headline": "Who was Renee Nicole Good, the woman killed by ICE?",
+        "lexical_richness": 0.93,
+        "readability_score": 75.71,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "dailymail",
+        "headline": "Poet Renee Nicole Good, 37, named as Minneapolis woman shot dead by ICE agent as video captures grieving wife at the scene",
+        "lexical_richness": 0.88,
+        "readability_score": 40.03,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      }
+    ]
+  },
+  {
+    "story_id": "story-003",
+    "topic": "Abandoned baby Elsa to be adopted and regularly see two siblings",
+    "articles": [
+      {
+        "source": "bbc",
+        "headline": "Abandoned baby Elsa to be adopted and regularly see two siblings",
+        "lexical_richness": 0.89,
+        "readability_score": 38.43,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "mirror",
+        "headline": "Baby Elsa found on street in shopping bag to be adopted - and will see abandoned brothers",
+        "lexical_richness": 0.84,
+        "readability_score": 35.22,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      }
+    ]
+  },
+  {
+    "story_id": "story-005",
+    "topic": "Fourteen clifftop homes face 'imminent' collapse",
+    "articles": [
+      {
+        "source": "bbc",
+        "headline": "Fourteen clifftop homes face 'imminent' collapse",
+        "lexical_richness": 0.96,
+        "readability_score": 73.17,
+        "propaganda_density": 4.0,
+        "primary_tactic": "fear"
+      },
+      {
+        "source": "independent",
+        "headline": "Warning 14 clifftop homes are at risk of collapse in Storm Goretti",
+        "lexical_richness": 0.83,
+        "readability_score": 62.84,
+        "propaganda_density": 5.88,
+        "primary_tactic": "fear"
+      },
+      {
+        "source": "dailymail",
+        "headline": "Clifftop homes on Britain's most eroded coastline are evacuated before Storm Goretti hits over fears seaside properties are at risk of 'imminent collapse' into sea",
+        "lexical_richness": 0.88,
+        "readability_score": 31.06,
+        "propaganda_density": 2.04,
+        "primary_tactic": "fear"
+      }
+    ]
+  },
+  {
+    "story_id": "story-006",
+    "topic": "Business rate rises for pubs to be watered down after pressure from landlords",
+    "articles": [
+      {
+        "source": "bbc",
+        "headline": "Business rate rises for pubs to be watered down after pressure from landlords",
+        "lexical_richness": 0.88,
+        "readability_score": 40.45,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "guardian",
+        "headline": "Labour to announce pub business rates U-turn after industry outcry",
+        "lexical_richness": 0.52,
+        "readability_score": -22.63,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "independent",
+        "headline": "Pubs handed a lifeline as Reeves set to U-turn on plans to scrap business rate relief",
+        "lexical_richness": 0.84,
+        "readability_score": 42.17,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "dailymail",
+        "headline": "Starmer poised for ANOTHER U-turn as ministers scramble for pubs rescue package amid fury from business and Labour MPs",
+        "lexical_richness": 0.86,
+        "readability_score": 16.65,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "gbnews",
+        "headline": "'Chickens have come home to roost!' Kemi Badenoch delivers brutal Labour takedown as Rachel Reeves poised to U-turn on pub tax hikes",
+        "lexical_richness": 0.34,
+        "readability_score": 53.64,
+        "propaganda_density": 0.23,
+        "primary_tactic": "loaded"
+      }
+    ]
+  },
+  {
+    "story_id": "story-007",
+    "topic": "Vance criticises Denmark and Europe's handling of 'critical' Greenland",
+    "articles": [
+      {
+        "source": "bbc",
+        "headline": "Vance criticises Denmark and Europe's handling of 'critical' Greenland",
+        "lexical_richness": 0.88,
+        "readability_score": 7.61,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "unherd",
+        "headline": "The space war will be won in Greenland",
+        "lexical_richness": 0.94,
+        "readability_score": 79.56,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      }
+    ]
+  },
+  {
+    "story_id": "story-010",
+    "topic": "Watch: Eyewitnesses recount deadly ICE shooting",
+    "articles": [
+      {
+        "source": "bbc",
+        "headline": "Watch: Eyewitnesses recount deadly ICE shooting",
+        "lexical_richness": 0.95,
+        "readability_score": 32.43,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "guardian",
+        "headline": "The Timberwolves should not play until ICE violence in Minneapolis is held to account | Lee Escobedo",
+        "lexical_richness": 0.73,
+        "readability_score": 44.26,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      }
+    ]
+  },
+  {
+    "story_id": "story-011",
+    "topic": "In pictures: Protests held in US cities",
+    "articles": [
+      {
+        "source": "bbc",
+        "headline": "In pictures: Protests held in US cities",
+        "lexical_richness": 0.91,
+        "readability_score": 38.38,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "guardian",
+        "headline": "ICE agents have killed \u2013 again. The Trump administration blames the victim | Moira Donegan",
+        "lexical_richness": 0.55,
+        "readability_score": 46.6,
+        "propaganda_density": 0.34,
+        "primary_tactic": "loaded"
+      },
+      {
+        "source": "thei",
+        "headline": "What we know \u2013 and don\u2019t know \u2013 about ICE shooting by Trump agent",
+        "lexical_richness": 0.85,
+        "readability_score": 58.02,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      }
+    ]
+  },
+  {
+    "story_id": "story-012",
+    "topic": "Terry Yorath: Ex-Wales captain whose life was touched by tragedy",
+    "articles": [
+      {
+        "source": "bbc",
+        "headline": "Terry Yorath: Ex-Wales captain whose life was touched by tragedy",
+        "lexical_richness": 0.81,
+        "readability_score": 45.62,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "guardian",
+        "headline": "Terry Yorath, former Wales and Leeds midfielder, dies aged 75",
+        "lexical_richness": 0.63,
+        "readability_score": 31.58,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "morningstar",
+        "headline": "Yorath impact on Welsh football \u2018immeasurable,\u2019 Wales boss Bellamy says",
+        "lexical_richness": 0.69,
+        "readability_score": 37.96,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      }
+    ]
+  },
+  {
+    "story_id": "story-020",
+    "topic": "Government accused of dragging its heels on deepfake law over Grok AI",
+    "articles": [
+      {
+        "source": "bbc",
+        "headline": "Government accused of dragging its heels on deepfake law over Grok AI",
+        "lexical_richness": 0.93,
+        "readability_score": 46.67,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "independent",
+        "headline": "New law set to protect dating app users from \u2018vile crime\u2019 of cyberflashing",
+        "lexical_richness": 0.83,
+        "readability_score": 16.96,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "neweuropean",
+        "headline": "Why is the government still using X?",
+        "lexical_richness": 0.88,
+        "readability_score": 40.71,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      }
+    ]
+  },
+  {
+    "story_id": "story-021",
+    "topic": "Anthony Joshua pays tribute to close friends who died in Nigeria crash",
+    "articles": [
+      {
+        "source": "bbc",
+        "headline": "Anthony Joshua pays tribute to close friends who died in Nigeria crash",
+        "lexical_richness": 0.7,
+        "readability_score": 35.28,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "sky",
+        "headline": "Anthony Joshua pays tribute to 'special' friends killed in crash",
+        "lexical_richness": 0.73,
+        "readability_score": 45.16,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "mirror",
+        "headline": "Kamaru Usman issues heartfelt apology over leaked Anthony Joshua video",
+        "lexical_richness": 0.91,
+        "readability_score": 4.14,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "dailymail",
+        "headline": "Anthony Joshua speaks out on the death of his two 'special' best friends in fatal car crash for the first time: 'It's tough for me - but even tougher for their parents'",
+        "lexical_richness": 0.82,
+        "readability_score": 27.94,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "gbnews",
+        "headline": "Eddie Hearn gives update on Anthony Joshua with boxer 'needing time' following fatal Nigeria crash",
+        "lexical_richness": 0.41,
+        "readability_score": 25.83,
+        "propaganda_density": 0.18,
+        "primary_tactic": "fear"
+      },
+      {
+        "source": "morningstar",
+        "headline": "Joshua pay emotional tribute to close friends who died in car crash",
+        "lexical_richness": 0.65,
+        "readability_score": 37.55,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      }
+    ]
+  },
+  {
+    "story_id": "story-022",
+    "topic": "Catherine joins William for London hospital visit",
+    "articles": [
+      {
+        "source": "bbc",
+        "headline": "Catherine joins William for London hospital visit",
+        "lexical_richness": 0.86,
+        "readability_score": 40.49,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "mirror",
+        "headline": "Kate Middleton ditches engagement ring for important reason on hospital visit",
+        "lexical_richness": 0.91,
+        "readability_score": 20.16,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      }
+    ]
+  },
+  {
+    "story_id": "story-023",
+    "topic": "Mistaken identity police did not do forensic tests on teens after crash",
+    "articles": [
+      {
+        "source": "bbc",
+        "headline": "Mistaken identity police did not do forensic tests on teens after crash",
+        "lexical_richness": 0.93,
+        "readability_score": 43.21,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "sky",
+        "headline": "Police who named wrong fatal car crash victim 'used family description and ID card'",
+        "lexical_richness": 0.67,
+        "readability_score": 29.0,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "independent",
+        "headline": "Family pay tribute to \u2018loveable\u2019 teenager after police mistakenly told them he survived car crash",
+        "lexical_richness": 0.91,
+        "readability_score": 28.95,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "metro",
+        "headline": "Woman who killed boyfriend and two pals in 92mph crash jailed for just three years",
+        "lexical_richness": 0.97,
+        "readability_score": 67.37,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "standard",
+        "headline": "Teenage crash victim misidentified after officer was given ID card, court told",
+        "lexical_richness": 1.0,
+        "readability_score": 27.38,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "mirror",
+        "headline": "Tragic reason family didn't know boy in coma wasn't their son - who had actually died",
+        "lexical_richness": 0.87,
+        "readability_score": 19.03,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "dailymail",
+        "headline": "Schoolgirl, 11, killed after suspected drink and drug driver hits her in broad daylight crash",
+        "lexical_richness": 0.83,
+        "readability_score": 64.71,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      }
+    ]
+  },
+  {
+    "story_id": "story-024",
+    "topic": "US involvement in Venezuela could last years, Trump says",
+    "articles": [
+      {
+        "source": "bbc",
+        "headline": "US involvement in Venezuela could last years, Trump says",
+        "lexical_richness": 0.83,
+        "readability_score": 49.49,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "guardian",
+        "headline": "Dense, sticky and heavy: why Venezuela\u2019s oil is valuable to Trump \u2013\u00a0video explainer",
+        "lexical_richness": 0.59,
+        "readability_score": 18.61,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "novaramedia",
+        "headline": "Trump\u2019s Venezuela Spectacle Shows US Empire Is in Decline",
+        "lexical_richness": 0.93,
+        "readability_score": 12.16,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "unherd",
+        "headline": "Trump must resist nation building",
+        "lexical_richness": 1.0,
+        "readability_score": 44.41,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      }
+    ]
+  },
+  {
+    "story_id": "story-025",
+    "topic": "Ex-Premier League referee given suspended jail term over child image",
+    "articles": [
+      {
+        "source": "bbc",
+        "headline": "Ex-Premier League referee given suspended jail term over child image",
+        "lexical_richness": 0.93,
+        "readability_score": 35.95,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "sky",
+        "headline": "Former Premier League referee avoids jail sentence over sexual video of schoolboy",
+        "lexical_richness": 0.69,
+        "readability_score": 22.25,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "independent",
+        "headline": "Ex-Premier League referee David Coote avoids jail after sex abuse video of 15-year-old found on laptop",
+        "lexical_richness": 0.92,
+        "readability_score": 39.52,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "mirror",
+        "headline": "David Coote's 'shattering' fall from grace as top referee avoids prison",
+        "lexical_richness": 0.8,
+        "readability_score": 29.25,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "dailymail",
+        "headline": "Disgraced Premier League referee David Coote is spared a jail sentence despite police finding a sexual video of a 15-year-old boy in school uniform on his laptop",
+        "lexical_richness": 0.91,
+        "readability_score": 11.03,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      }
+    ]
+  },
+  {
+    "story_id": "story-029",
+    "topic": "Brook, 'Boozeball' and another Ashes hangover",
+    "articles": [
+      {
+        "source": "bbc",
+        "headline": "Brook, 'Boozeball' and another Ashes hangover",
+        "lexical_richness": 0.85,
+        "readability_score": 44.7,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "guardian",
+        "headline": "England\u2019s Ashes humbling was more a series of letdowns than \u2018series of our lives\u2019 | Ali Martin",
+        "lexical_richness": 0.55,
+        "readability_score": 17.95,
+        "propaganda_density": 0.68,
+        "primary_tactic": "loaded"
+      }
+    ]
+  },
+  {
+    "story_id": "story-031",
+    "topic": "'Whoever signed off England's tour has to go' - Agnew column",
+    "articles": [
+      {
+        "source": "bbc",
+        "headline": "'Whoever signed off England's tour has to go' - Agnew column",
+        "lexical_richness": 0.74,
+        "readability_score": 35.95,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      },
+      {
+        "source": "morningstar",
+        "headline": "ECB initiates review into England's \u2018deeply disappointing\u2019 Ashes performances",
+        "lexical_richness": 0.74,
+        "readability_score": 15.98,
+        "propaganda_density": 0.0,
+        "primary_tactic": "None"
+      }
+    ]
+  }
+]

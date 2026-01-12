@@ -4,6 +4,7 @@ from datetime import datetime, timedelta
 import json
 
 from news import get_stories
+from analysis import analyze_stories
 
 # ========================
 # App + Config
@@ -49,15 +50,15 @@ def read_stories(
     """
     should_refresh = force_refresh or cache_is_stale()
 
-    stories = get_stories(force_refresh=should_refresh)
+    get_stories(force_refresh=False)
 
-    filtered = [s for s in stories if len(s.articles) >= 2]
+    stories = analyze_stories()
 
     return {
         "refreshed": should_refresh,
         "cache_age_minutes": cache_age_minutes(),
-        "story_count": len(filtered),
-        "stories": filtered,
+        "story_count": len(stories),
+        "stories": stories,
     }
 
 @app.post("/api/refresh")

@@ -1,180 +1,175 @@
 import json
-import re
+import torch
 from datetime import datetime
 from pathlib import Path
-from typing import List, Dict
+from typing import List
+from concurrent.futures import ThreadPoolExecutor
 
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+import nltk
 import feedparser
+from newspaper import Article as Scraper
+from sentence_transformers import SentenceTransformer, util
 
 from models import Article, Story
-from config import RSS_FEEDS, SOURCE_MIN_SHARED, SOURCE_BIAS
+from config import RSS_FEEDS, SOURCE_BIAS
+import analysis
 
-# ========================
-# Config
-# ========================
+# Initialize model
+model = SentenceTransformer('all-MiniLM-L6-v2')
 
 DATA_DIR = Path("./data")
 STORIES_FILE = DATA_DIR / "stories.json"
 
+# Settings for performance and accuracy
 MAX_MATCH_HOURS = 48
+SIMILARITY_THRESHOLD = 0.55  # Lowered slightly to be more 'liberal' with matches
+BBC_DEDUPE_THRESHOLD = 0.85 # Merges near-identical BBC stories into one seed
+ARTICLE_CAP = 40             # Limits articles per source for speed
 
-STOPWORDS = {
-    "the", "a", "an", "and", "or", "to", "of", "in", "on", "for",
-    "with", "after", "over", "as", "by", "from", "is", "are",
-    "was", "were"
-}
+def get_full_content(article_obj: Article) -> str:
+    """Scrapes the body text. Limits to first 1000 chars for processing speed."""
+    try:
+        a = Scraper(article_obj.url, request_timeout=4)
+        a.download()
+        a.parse()
+        if len(a.text) > 100:
+            # We only need the start of the article for semantic context
+            return f"{a.title} {a.text[:1000]}"
+    except Exception:
+        pass
+    # Fallback to headline and summary if scraping fails
+    return f"{article_obj.headline} {article_obj.summary}"
 
-GENERIC_WORDS = {
-    "says", "said", "pm", "president", "leader",
-    "government", "uk", "us", "britain",
-    "attack", "raid", "response", "warning",
-    "man", "woman", "people", "police"
-}
-# ========================
-# Orchestration
-# ========================
+def build_smart_stories(articles: List[Article]) -> List[Story]:
+    # 1. Apply Article Cap per source
+    source_counts = {}
+    capped_articles = []
+    for a in articles:
+        source_counts.setdefault(a.source, 0)
+        if source_counts[a.source] < ARTICLE_CAP:
+            capped_articles.append(a)
+            source_counts[a.source] += 1
+
+    bbc_articles = [a for a in capped_articles if a.source == "bbc"]
+    other_articles = [a for a in capped_articles if a.source != "bbc"]
+
+    # 2. Scrape & Encode BBC articles
+    print(f"Scraping {len(bbc_articles)} BBC articles...")
+    with ThreadPoolExecutor(max_workers=8) as executor:
+        bbc_texts = list(executor.map(get_full_content, bbc_articles))
+    
+    # Generate embeddings in one batch
+    raw_bbc_embeddings = model.encode(bbc_texts, convert_to_tensor=True)
+
+    # 3. Deduplicate BBC stories (The "Venezuela Fix")
+    # This prevents multiple BBC seeds from competing for the same Mirror/Guardian articles
+    unique_stories = []
+    unique_embeddings = []
+
+    for i, bbc in enumerate(bbc_articles):
+        is_duplicate = False
+        if unique_embeddings:
+            # Check if this BBC article is nearly identical to one we've already seeded
+            scores = util.cos_sim(raw_bbc_embeddings[i], torch.stack(unique_embeddings))
+            if torch.max(scores) > BBC_DEDUPE_THRESHOLD:
+                is_duplicate = True
+        
+        if not is_duplicate:
+            unique_stories.append(Story(
+                story_id=f"story-{len(unique_stories)+1:03d}",
+                topic=bbc.headline,
+                articles=[bbc]
+            ))
+            unique_embeddings.append(raw_bbc_embeddings[i])
+
+    print(f"Created {len(unique_stories)} unique BBC seeds (merged {len(bbc_articles) - len(unique_stories)} duplicates).")
+
+    # 4. Scrape & Encode Other articles
+    print(f"Scraping {len(other_articles)} other articles...")
+    with ThreadPoolExecutor(max_workers=12) as executor:
+        other_texts = list(executor.map(get_full_content, other_articles))
+    
+    other_embeddings = model.encode(other_texts, convert_to_tensor=True)
+    seed_tensor = torch.stack(unique_embeddings)
+
+    # 5. Batch Comparison
+    cosine_matrix = util.cos_sim(other_embeddings, seed_tensor)
+
+    for i, other in enumerate(other_articles):
+        best_score, best_idx = torch.max(cosine_matrix[i], dim=0)
+        
+        if best_score.item() > SIMILARITY_THRESHOLD:
+            target_story = unique_stories[best_idx.item()]
+            
+            # Time constraint
+            time_diff = abs((other.published_at - target_story.articles[0].published_at).total_seconds()) / 3600
+            
+            if time_diff < MAX_MATCH_HOURS:
+                # Avoid duplicate sources in one story
+                if not any(a.source == other.source for a in target_story.articles):
+                    target_story.articles.append(other)
+
+    return unique_stories
 
 def get_stories(force_refresh: bool = False) -> List[Story]:
     if STORIES_FILE.exists() and not force_refresh:
         with open(STORIES_FILE, "r", encoding="utf-8") as f:
             return [Story(**s) for s in json.load(f)]
 
-    articles = fetch_articles()
-    stories = build_bbc_baseline_stories(articles)
+    print("Fetching RSS feeds...")
+    raw_articles = []
+    for source_id, feed_url in RSS_FEEDS.items():
+        feed = feedparser.parse(feed_url)
+        for entry in feed.entries:
+            published = getattr(entry, "published_parsed", None)
+            dt = datetime(*published[:6]) if published else datetime.utcnow()
+            raw_articles.append(Article(
+                id=f"{source_id}-{entry.get('id', entry.link)}",
+                source=source_id,
+                headline=getattr(entry, "title", ""),
+                summary=getattr(entry, "summary", ""),
+                url=getattr(entry, "link", ""),
+                published_at=dt,
+                entities=[],
+                bias_score=SOURCE_BIAS.get(source_id, 0.0),
+            ))
+
+    stories = build_smart_stories(raw_articles)
 
     DATA_DIR.mkdir(exist_ok=True)
     with open(STORIES_FILE, "w", encoding="utf-8") as f:
-        json.dump(
-            [s.dict() for s in stories],
-            f,
-            indent=2,
-            ensure_ascii=False,
-            default=str,
-        )
+        json.dump([s.dict() for s in stories], f, indent=2, ensure_ascii=False, default=str)
 
-    evaluate(stories)
+    print(f"Final results: {len(stories)} stories generated.")
     return stories
 
-# ========================
-# RSS ingestion
-# ========================
+def process_and_analyze_stories(raw_stories):
+    processed_stories = []
+    
+    for story_data in raw_stories:
+        new_story = Story(story_id=story_data['id'], topic=story_data['topic'])
+        
+        for art in story_data['articles']:
+            # Perform the analysis on the fly
+            richness, reading_ease = analysis.get_lexical_metrics(art['text'])
+            signal_density, signals = analysis.detect_narrative_signals(art['text'])
+            
+            # Map the highest signal hit to a label
+            top_signal = max(signals, key=signals.get) if signal_density > 0 else "Balanced"
 
-def fetch_articles() -> List[Article]:
-    articles = []
-
-    for source_id, feed_url in RSS_FEEDS.items():
-        feed = feedparser.parse(feed_url)
-
-        for entry in feed.entries:
-            published = getattr(entry, "published_parsed", None)
-            published_at = (
-                datetime(*published[:6])
-                if published
-                else datetime.utcnow()
+            analyzed_article = Article(
+                **art,
+                lexical_richness=richness,
+                readability_score=reading_ease,
+                loaded_language_density=signal_density,
+                primary_signal=top_signal
             )
+            new_story.articles.append(analyzed_article)
+            
+        processed_stories.append(new_story)
+    
+    return processed_stories
 
-            articles.append(
-                Article(
-                    id=f"{source_id}-{entry.get('id', entry.link)}",
-                    source=source_id,
-                    headline=getattr(entry, "title", ""),
-                    summary=getattr(entry, "summary", ""),
-                    url=getattr(entry, "link", ""),
-                    published_at=published_at,
-                    entities=[],
-                    bias_score=SOURCE_BIAS.get(source_id, 0.0),
-                )
-            )
-
-    return articles
-
-# ========================
-# BBC baseline matching
-# ========================
-
-def build_bbc_baseline_stories(articles: List[Article]) -> List[Story]:
-    bbc_articles = [a for a in articles if a.source == "bbc"]
-    other_articles = [a for a in articles if a.source != "bbc"]
-
-    stories: List[Story] = []
-
-    # Create one story per BBC article
-    for i, bbc in enumerate(bbc_articles):
-        stories.append(
-            Story(
-                story_id=f"story-{i+1:03d}",
-                topic=", ".join(list(extract_anchors(bbc.headline))[:4]),
-                articles=[bbc],
-            )
-        )
-
-    # Assign other articles to BBC stories
-    for article in other_articles:
-        anchors = extract_anchors(article.headline)
-        required = SOURCE_MIN_SHARED.get(article.source, 2)
-
-        best_story = None
-        best_score = 0
-
-        for story in stories:
-            # ⏱ time constraint
-            story_time = story.articles[0].published_at
-            time_diff = abs(
-                (article.published_at - story_time).total_seconds()
-            ) / 3600
-            if time_diff > MAX_MATCH_HOURS:
-                continue
-
-            # 🚫 same source twice
-            if any(a.source == article.source for a in story.articles):
-                continue
-
-            story_anchors = extract_anchors(story.articles[0].headline)
-            shared = anchors & story_anchors
-
-            if len(shared) < required:
-                continue
-
-            # If only one anchor, require it to be strong
-            if len(shared) == 1:
-                anchor = next(iter(shared))
-                if len(anchor) < 7:
-                    continue
-
-            if len(shared) > best_score:
-                best_story = story
-                best_score = len(shared)
-
-        if best_story:
-            best_story.articles.append(article)
-
-    return stories
-
-# ========================
-# Anchor extraction
-# ========================
-
-def extract_anchors(text: str) -> set[str]:
-    tokens = re.findall(r"[A-Za-z][A-Za-z\-]{2,}", text.lower())
-
-    return {
-        t for t in tokens
-        if t not in STOPWORDS
-        and t not in GENERIC_WORDS
-        and len(t) > 4
-    }
-
-# ========================
-# Evaluation
-# ========================
-
-def evaluate(stories: List[Story]):
-    total_articles = sum(len(s.articles) for s in stories)
-    grouped = sum(1 for s in stories if len(s.articles) > 1)
-
-    print(f"[Eval] {total_articles} articles → {len(stories)} BBC stories")
-    print(f"[Eval] Stories with matches: {grouped}")
-    print(f"[Eval] Avg articles/story: {total_articles / max(len(stories),1):.2f}")
-
-    for s in stories[:5]:
-        print(f"- {s.story_id}: {s.topic} ({len(s.articles)})")
+if __name__ == "__main__":
+    get_stories(force_refresh=True)
