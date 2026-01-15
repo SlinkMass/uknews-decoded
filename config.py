@@ -17,7 +17,6 @@ RSS_FEEDS = {
     "spectator": "https://www.spectator.co.uk/feed/",
     "unherd": "https://unherd.com/feed/",
     "neweuropean": "https://www.theneweuropean.co.uk/feed/",
-    "infowars": "https://www.infowars.com/feed/",
 }
 
 SOURCE_BIAS = {

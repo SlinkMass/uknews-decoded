@@ -23,26 +23,24 @@ STORIES_FILE = DATA_DIR / "stories.json"
 
 # Settings for performance and accuracy
 MAX_MATCH_HOURS = 48
-SIMILARITY_THRESHOLD = 0.55  # Lowered slightly to be more 'liberal' with matches
-BBC_DEDUPE_THRESHOLD = 0.85 # Merges near-identical BBC stories into one seed
-ARTICLE_CAP = 40             # Limits articles per source for speed
+SIMILARITY_THRESHOLD = 0.5  # Lowered further to capture more "missed" stories
+BBC_DEDUPE_THRESHOLD = 0.85 
+ARTICLE_CAP = 40            
 
 def get_full_content(article_obj: Article) -> str:
-    """Scrapes the body text. Limits to first 1000 chars for processing speed."""
+    """Scrapes the body text. Increased context window for better clustering."""
     try:
         a = Scraper(article_obj.url, request_timeout=4)
         a.download()
         a.parse()
         if len(a.text) > 100:
-            # We only need the start of the article for semantic context
-            return f"{a.title} {a.text[:1000]}"
+            # Increased to 1500 to capture deeper context often missed in short snippets
+            return f"{a.title} {a.text[:1500]}"
     except Exception:
         pass
-    # Fallback to headline and summary if scraping fails
     return f"{article_obj.headline} {article_obj.summary}"
 
 def build_smart_stories(articles: List[Article]) -> List[Story]:
-    # 1. Apply Article Cap per source
     source_counts = {}
     capped_articles = []
     for a in articles:
@@ -54,23 +52,18 @@ def build_smart_stories(articles: List[Article]) -> List[Story]:
     bbc_articles = [a for a in capped_articles if a.source == "bbc"]
     other_articles = [a for a in capped_articles if a.source != "bbc"]
 
-    # 2. Scrape & Encode BBC articles
     print(f"Scraping {len(bbc_articles)} BBC articles...")
     with ThreadPoolExecutor(max_workers=8) as executor:
         bbc_texts = list(executor.map(get_full_content, bbc_articles))
     
-    # Generate embeddings in one batch
     raw_bbc_embeddings = model.encode(bbc_texts, convert_to_tensor=True)
 
-    # 3. Deduplicate BBC stories (The "Venezuela Fix")
-    # This prevents multiple BBC seeds from competing for the same Mirror/Guardian articles
     unique_stories = []
     unique_embeddings = []
 
     for i, bbc in enumerate(bbc_articles):
         is_duplicate = False
         if unique_embeddings:
-            # Check if this BBC article is nearly identical to one we've already seeded
             scores = util.cos_sim(raw_bbc_embeddings[i], torch.stack(unique_embeddings))
             if torch.max(scores) > BBC_DEDUPE_THRESHOLD:
                 is_duplicate = True
@@ -83,9 +76,8 @@ def build_smart_stories(articles: List[Article]) -> List[Story]:
             ))
             unique_embeddings.append(raw_bbc_embeddings[i])
 
-    print(f"Created {len(unique_stories)} unique BBC seeds (merged {len(bbc_articles) - len(unique_stories)} duplicates).")
+    print(f"Created {len(unique_stories)} unique BBC seeds.")
 
-    # 4. Scrape & Encode Other articles
     print(f"Scraping {len(other_articles)} other articles...")
     with ThreadPoolExecutor(max_workers=12) as executor:
         other_texts = list(executor.map(get_full_content, other_articles))
@@ -93,7 +85,6 @@ def build_smart_stories(articles: List[Article]) -> List[Story]:
     other_embeddings = model.encode(other_texts, convert_to_tensor=True)
     seed_tensor = torch.stack(unique_embeddings)
 
-    # 5. Batch Comparison
     cosine_matrix = util.cos_sim(other_embeddings, seed_tensor)
 
     for i, other in enumerate(other_articles):
@@ -101,12 +92,9 @@ def build_smart_stories(articles: List[Article]) -> List[Story]:
         
         if best_score.item() > SIMILARITY_THRESHOLD:
             target_story = unique_stories[best_idx.item()]
-            
-            # Time constraint
             time_diff = abs((other.published_at - target_story.articles[0].published_at).total_seconds()) / 3600
             
             if time_diff < MAX_MATCH_HOURS:
-                # Avoid duplicate sources in one story
                 if not any(a.source == other.source for a in target_story.articles):
                     target_story.articles.append(other)
 
@@ -117,7 +105,6 @@ def get_stories(force_refresh: bool = False) -> List[Story]:
         with open(STORIES_FILE, "r", encoding="utf-8") as f:
             return [Story(**s) for s in json.load(f)]
 
-    print("Fetching RSS feeds...")
     raw_articles = []
     for source_id, feed_url in RSS_FEEDS.items():
         feed = feedparser.parse(feed_url)
@@ -136,26 +123,22 @@ def get_stories(force_refresh: bool = False) -> List[Story]:
             ))
 
     stories = build_smart_stories(raw_articles)
-
     DATA_DIR.mkdir(exist_ok=True)
     with open(STORIES_FILE, "w", encoding="utf-8") as f:
         json.dump([s.dict() for s in stories], f, indent=2, ensure_ascii=False, default=str)
 
-    print(f"Final results: {len(stories)} stories generated.")
     return stories
 
 def process_and_analyze_stories(raw_stories):
     processed_stories = []
-    
     for story_data in raw_stories:
         new_story = Story(story_id=story_data['id'], topic=story_data['topic'])
-        
         for art in story_data['articles']:
-            # Perform the analysis on the fly
+            # Call to updated analysis.py functions
             richness, reading_ease = analysis.get_lexical_metrics(art['text'])
-            signal_density, signals = analysis.detect_narrative_signals(art['text'])
+            # Keeping 'detect_narrative_signals' name for compatibility
+            signal_density, signals = analysis.detect_propaganda_signals(art['text'])
             
-            # Map the highest signal hit to a label
             top_signal = max(signals, key=signals.get) if signal_density > 0 else "Balanced"
 
             analyzed_article = Article(
@@ -166,9 +149,7 @@ def process_and_analyze_stories(raw_stories):
                 primary_signal=top_signal
             )
             new_story.articles.append(analyzed_article)
-            
         processed_stories.append(new_story)
-    
     return processed_stories
 
 if __name__ == "__main__":
